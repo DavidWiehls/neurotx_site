@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Shield, Users, Lock, Eye } from 'lucide-react';
+import { Shield, Lock } from 'lucide-react';
 
 const About = () => {
   return (
@@ -76,21 +76,16 @@ const About = () => {
               <p className="text-gray-400 mb-6 leading-relaxed">
                 German engineer, Official China Host Partner, and Global Jury Member for the br41n.io Hackathon. An RWTH Aachen graduate dedicated to bridging the gap between pure neuroscience and applied robotics in K-12 education.
               </p>
-              <div className="flex gap-4">
-                <div className="px-4 py-2 bg-white/5 rounded-lg border border-white/10 text-sm text-gray-300">RWTH Aachen Alumnus</div>
-                <div className="px-4 py-2 bg-white/5 rounded-lg border border-white/10 text-sm text-gray-300">br41n.io Jury Member</div>
+              <div className="flex flex-wrap gap-4">
+                <a href="https://www.linkedin.com/in/david-wiehls/" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-white/5 rounded-lg border border-white/10 text-sm text-gray-300 hover:bg-white/10 hover:border-indigo-500/30 transition-colors">RWTH Aachen Alumnus</a>
+                <a href="https://www.br41n.io/Spring-School-2026" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-white/5 rounded-lg border border-white/10 text-sm text-gray-300 hover:bg-white/10 hover:border-indigo-500/30 transition-colors">br41n.io Jury Member</a>
               </div>
             </div>
             <div className="bg-zinc-800 h-64 md:h-auto relative">
-               {/* Placeholder for Founder Image */}
-               <div className="absolute inset-0 flex items-center justify-center text-gray-600">
-                  <Users className="h-16 w-16 opacity-20" />
-               </div>
                <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop" 
+                src={new URL('../../assets/company-information/David_profile.JPG', import.meta.url).href}
                 alt="David Wiehls"
-                className="w-full h-full object-cover opacity-50 grayscale hover:grayscale-0 transition-all duration-500"
-                referrerPolicy="no-referrer"
+                className="w-full h-full object-cover object-top"
                />
             </div>
           </div>

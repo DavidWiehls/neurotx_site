@@ -91,22 +91,50 @@ const Home = () => {
       </section>
 
       {/* Stats / Trust Section */}
-      <section className="py-20 border-y border-white/5 bg-zinc-900/20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-sm font-mono text-indigo-400 mb-8 uppercase tracking-widest">Trusted by Educational Vanguards</p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 opacity-70">
-            <div className="flex items-center justify-center">
-              <span className="text-xl font-bold text-gray-300">Hangzhou No.2 HS</span>
-            </div>
-            <div className="flex items-center justify-center">
-              <span className="text-xl font-bold text-gray-300">Chongwen Exp. School</span>
-            </div>
-            <div className="flex items-center justify-center">
-              <span className="text-xl font-bold text-gray-300">OCAC Suzhou</span>
-            </div>
-            <div className="flex items-center justify-center">
-              <span className="text-xl font-bold text-gray-300">g.tec Medical</span>
-            </div>
+      <section className="py-20 border-y border-white/5 bg-zinc-900/20 overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-12">
+          <p className="text-sm font-mono text-indigo-400 uppercase tracking-widest">Trusted by Educational Vanguards</p>
+        </div>
+        <div className="relative">
+          <div className="flex animate-scroll">
+            {[
+              { en: 'Hangzhou Chongwen Century City Experimental School', zh: '杭州市萧山崇文实验学校', badge: 'Official br41n.io Hosting Institution', initials: 'CC', logo: null },
+              { en: 'Hangzhou Xuejun Wenyuan Experimental School', zh: '杭州学军文渊实验科学', initials: 'XW', logo: null },
+              { en: 'Hangzhou Wahaha Bilingual School', zh: '杭州娃哈哈双语学校', initials: 'WH', logo: null },
+              { en: 'Hangzhou Entel Foreign Language School', zh: '杭州英特外国语学校', initials: 'ET', logo: null },
+              { en: 'Hangzhou No.2 High School Qianjiang', zh: '杭州第二中学钱江', initials: 'HZ', logo: null },
+              { en: 'Zhejiang Wenling High School', zh: '浙江省温岭中学', initials: 'WL', logo: null },
+              { en: 'Overseas Chinese Academy of Concord Suzhou (OCAC)', zh: '苏州工业园区海归人才子女学校', initials: 'OC', logo: null },
+              { en: 'Britannia International School in Guangzhou (BIS)', zh: '广州市英伦外籍人员子女学校', initials: 'BI', logo: null },
+              { en: 'Canadian International School of Guangzhou (CIS)', zh: '广州市加拿大外籍人员子女学校', initials: 'CI', logo: null },
+              { en: 'Foshan No.1 High School', zh: '佛山市第一中学', initials: 'FS', logo: null },
+              { en: 'EtonHouse International Education Group', zh: '新加坡伊顿国际教育集团', initials: 'EH', logo: null },
+              { en: 'Canada Kent School', zh: '加拿大肯特学校', initials: 'CK', logo: null },
+            ].flatMap((school) => [school, school]).map((school, i) => (
+              <motion.div
+                key={`${school.en}-${i}`}
+                initial={{ opacity: 0.6 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: false }}
+                className="flex-shrink-0 w-64 mx-4 rounded-xl bg-zinc-900/50 border border-white/5 p-6 flex flex-col items-center justify-center group hover:border-indigo-500/20 hover:bg-zinc-900/80 transition-all duration-300"
+              >
+                {/* Dummy logo - replace src with actual logo URL when available */}
+                <div className="h-16 w-16 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center mb-4 group-hover:border-indigo-500/30 transition-colors overflow-hidden">
+                  {school.logo ? (
+                    <img src={school.logo} alt={school.en} className="h-full w-full object-contain p-1" />
+                  ) : (
+                    <span className="text-lg font-bold text-indigo-400/80 group-hover:text-indigo-400">{school.initials}</span>
+                  )}
+                </div>
+                <span className="text-sm font-semibold text-white text-center mb-1 line-clamp-2">{school.en}</span>
+                <span className="text-xs text-gray-500 text-center">{school.zh}</span>
+                {school.badge && (
+                  <span className="mt-2 text-[10px] text-indigo-400 font-mono px-2 py-0.5 rounded bg-indigo-500/10">
+                    {school.badge}
+                  </span>
+                )}
+              </motion.div>
+            ))}
           </div>
         </div>
       </section>
