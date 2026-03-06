@@ -32,12 +32,18 @@ const Home = () => {
               Empowering the next generation of Neural Architects.
             </p>
             
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-4">
               <Link to="/schools" className="w-full sm:w-auto px-8 py-4 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-semibold transition-all flex items-center justify-center gap-2">
                 For Schools <ArrowRight className="h-5 w-5" />
               </Link>
               <Link to="/product" className="w-full sm:w-auto px-8 py-4 bg-white/10 hover:bg-white/20 text-white border border-white/10 rounded-xl font-semibold transition-all backdrop-blur-sm">
                 Explore Curriculum
+              </Link>
+              <Link to="/investors" className="w-full sm:w-auto px-8 py-4 bg-white/5 hover:bg-white/10 text-gray-300 border border-white/10 rounded-xl font-semibold transition-all backdrop-blur-sm">
+                For Investors
+              </Link>
+              <Link to="/partners" className="w-full sm:w-auto px-8 py-4 bg-white/5 hover:bg-white/10 text-gray-300 border border-white/10 rounded-xl font-semibold transition-all backdrop-blur-sm">
+                Partner With Us
               </Link>
             </div>
           </motion.div>
@@ -97,20 +103,22 @@ const Home = () => {
         </div>
         <div className="relative">
           <div className="flex animate-scroll">
-            {[
-              { en: 'Hangzhou Chongwen Century City Experimental School', zh: '杭州市萧山崇文实验学校', badge: 'Official br41n.io Hosting Institution', initials: 'CC', logo: null },
-              { en: 'Hangzhou Xuejun Wenyuan Experimental School', zh: '杭州学军文渊实验科学', initials: 'XW', logo: null },
-              { en: 'Hangzhou Wahaha Bilingual School', zh: '杭州娃哈哈双语学校', initials: 'WH', logo: null },
-              { en: 'Hangzhou Entel Foreign Language School', zh: '杭州英特外国语学校', initials: 'ET', logo: null },
-              { en: 'Hangzhou No.2 High School Qianjiang', zh: '杭州第二中学钱江', initials: 'HZ', logo: null },
-              { en: 'Zhejiang Wenling High School', zh: '浙江省温岭中学', initials: 'WL', logo: null },
-              { en: 'Overseas Chinese Academy of Concord Suzhou (OCAC)', zh: '苏州工业园区海归人才子女学校', initials: 'OC', logo: null },
-              { en: 'Britannia International School in Guangzhou (BIS)', zh: '广州市英伦外籍人员子女学校', initials: 'BI', logo: null },
-              { en: 'Canadian International School of Guangzhou (CIS)', zh: '广州市加拿大外籍人员子女学校', initials: 'CI', logo: null },
-              { en: 'Foshan No.1 High School', zh: '佛山市第一中学', initials: 'FS', logo: null },
-              { en: 'EtonHouse International Education Group', zh: '新加坡伊顿国际教育集团', initials: 'EH', logo: null },
-              { en: 'Canada Kent School', zh: '加拿大肯特学校', initials: 'CK', logo: null },
-            ].flatMap((school) => [school, school]).map((school, i) => (
+            {(() => {
+              const trustSchools = [
+                { en: 'Hangzhou Chongwen Century City Experimental School', zh: '杭州市萧山崇文实验学校', badge: 'Official br41n.io Hosting Institution', initials: 'CC', logo: new URL('../../assets/partners/chongwen.jpg', import.meta.url).href },
+                { en: 'Hangzhou Xuejun Wenyuan Experimental School', zh: '杭州学军文渊实验科学', initials: 'XW', logo: new URL('../../assets/partners/xuejun.jpg', import.meta.url).href },
+                { en: 'Hangzhou Wahaha Bilingual School', zh: '杭州娃哈哈双语学校', initials: 'WH', logo: new URL('../../assets/partners/wahaha.jpg', import.meta.url).href },
+                { en: 'Hangzhou Entel Foreign Language School', zh: '杭州英特外国语学校', initials: 'ET', logo: new URL('../../assets/partners/entel.jpg', import.meta.url).href },
+                { en: 'Hangzhou No.2 High School Qianjiang', zh: '杭州第二中学钱江', initials: 'HZ', logo: new URL('../../assets/partners/hangerqiangjiang.jpg', import.meta.url).href },
+                { en: 'Zhejiang Wenling High School', zh: '浙江省温岭中学', initials: 'WL', logo: new URL('../../assets/partners/wenjing.jpg', import.meta.url).href },
+                { en: 'Overseas Chinese Academy of Concord Suzhou (OCAC)', zh: '苏州工业园区海归人才子女学校', initials: 'OC', logo: new URL('../../assets/partners/ocac.jpg', import.meta.url).href },
+                { en: 'Britannia International School in Guangzhou (BIS)', zh: '广州市英伦外籍人员子女学校', initials: 'BI', logo: new URL('../../assets/partners/bisguangzhou.jpg', import.meta.url).href },
+                { en: 'Canadian International School of Guangzhou (CIS)', zh: '广州市加拿大外籍人员子女学校', initials: 'CI', logo: new URL('../../assets/partners/cisguangzhou.jpg', import.meta.url).href },
+                { en: 'Foshan No.1 High School', zh: '佛山市第一中学', initials: 'FS', logo: new URL('../../assets/partners/foshandiyi.jpg', import.meta.url).href },
+                { en: 'EtonHouse International Education Group', zh: '新加坡伊顿国际教育集团', initials: 'EH', logo: new URL('../../assets/partners/etonhouse.jpg', import.meta.url).href },
+                { en: 'Canada Kent School', zh: '加拿大肯特学校', initials: 'CK', logo: new URL('../../assets/partners/kentcanada.jpg', import.meta.url).href },
+              ];
+              return [...trustSchools, ...trustSchools].map((school, i) => (
               <motion.div
                 key={`${school.en}-${i}`}
                 initial={{ opacity: 0.6 }}
@@ -134,7 +142,8 @@ const Home = () => {
                   </span>
                 )}
               </motion.div>
-            ))}
+            ));
+            })()}
           </div>
         </div>
       </section>

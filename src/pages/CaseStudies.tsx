@@ -27,6 +27,14 @@ const CaseStudies = () => {
       summary: "Pairing linguistic excellence with 'Hard' Tech. 50+ students used the program to build portfolios for Germany's elite TU9 engineering universities (RWTH Aachen, TUM, KIT).",
       tags: ["Sino-German Bridge", "High Volume", "Engineering Focus"],
       image: "https://images.unsplash.com/photo-1592280771884-131186570d96?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+      school: "Overseas Chinese Academy of Concord Suzhou (OCAC)",
+      type: "High-Volume Middle School",
+      title: "Scaling the Turnkey ASA Across Middle Grades",
+      summary: "OCAC established itself as a regional leader in neurotechnology by deploying the 16-week Turnkey ASA to large middle school cohorts. The program proved that BCI can scale across younger grades, driving institutional FOMO across Suzhou's top-tier international schools.",
+      tags: ["Middle School ASA", "Regional Leadership", "Scalable Deployment"],
+      image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1000&auto=format&fit=crop"
     }
   ];
 

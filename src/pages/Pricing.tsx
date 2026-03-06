@@ -105,9 +105,13 @@ const Pricing = () => {
               <h2 className="text-3xl font-bold text-white">Neural Campus</h2>
               <p className="text-gray-400 text-sm mt-2">Full academic year integration & teacher certification.</p>
             </div>
-            <div className="mb-8">
+            <div className="mb-6">
               <span className="text-4xl font-bold text-white">¥55,000</span>
               <span className="text-gray-500"> / year (base)</span>
+            </div>
+            <div className="mb-6 text-sm text-gray-400">
+              <span>+ ¥12,000 Teacher PD · + ¥700/student seat</span>
+              <span className="block text-indigo-400/80 mt-1">Example: 100 students ≈ ¥137,000/year</span>
             </div>
             <ul className="space-y-4 mb-8 flex-1">
               <li className="flex items-start gap-3 text-sm text-gray-300">
@@ -116,7 +120,7 @@ const Pricing = () => {
               </li>
               <li className="flex items-start gap-3 text-sm text-gray-300">
                 <Check className="h-5 w-5 text-indigo-500 flex-shrink-0" />
-                <span>"Neural Guide" Teacher Certification (PD)</span>
+                <span>"Neural Guide" Teacher Certification (PD: ¥12,000)</span>
               </li>
               <li className="flex items-start gap-3 text-sm text-gray-300">
                 <Check className="h-5 w-5 text-indigo-500 flex-shrink-0" />
@@ -144,7 +148,7 @@ const Pricing = () => {
             Looking for the 16-week After-School Activity? The ASA program costs approximately ¥1,960 - ¥3,000 per student depending on your school's hosting fee.
           </p>
           <Link to="/contact" className="text-indigo-400 hover:text-indigo-300 font-medium">
-            Download Parent Brochure &rarr;
+            Request Parent Brochure &rarr;
           </Link>
         </div>
 

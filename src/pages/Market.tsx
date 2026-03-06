@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import { Link } from 'react-router-dom';
 import { TrendingUp, Users, School, Globe } from 'lucide-react';
 
 const Market = () => {
@@ -66,7 +67,7 @@ const Market = () => {
           <div className="border-l-2 border-purple-500 pl-8">
             <h2 className="text-2xl font-bold mb-4">Segment III: MOE AI Bases & Provincial Model High Schools</h2>
             <p className="text-gray-400 mb-4 max-w-4xl">
-              The Tier 3 SaaS market. Government-mandated AI integration bases with guaranteed access to capital and modernization grants.
+              The Tier 3 SaaS market. China's Ministry of Education has designated 184 official AI education bases with guaranteed access to capital and modernization grants. Direct alignment with national AI integration goals by 2030.
             </p>
             <div className="flex gap-4 text-sm font-mono text-gray-500">
               <span>Est. ICP: 400-500 Schools</span>
@@ -87,6 +88,21 @@ const Market = () => {
             </div>
           </div>
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="mt-24 bg-zinc-900/30 border border-indigo-500/20 rounded-2xl p-8 md:p-12 text-center"
+        >
+          <h2 className="text-2xl font-bold mb-4">Investment Highlights</h2>
+          <p className="text-gray-400 max-w-2xl mx-auto mb-6">
+            Triple-stream revenue, hybrid logistics model, and ~1,550–1,950 qualified schools. Explore unit economics and scaling strategy.
+          </p>
+          <Link to="/investors" className="inline-flex items-center justify-center px-8 py-4 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-semibold transition-all">
+            View For Investors
+          </Link>
+        </motion.div>
 
       </div>
     </div>

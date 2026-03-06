@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Brain, Github, Twitter, Linkedin } from 'lucide-react';
+import { Brain, Github, Twitter, Linkedin, MessageCircle } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -33,6 +33,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-gray-400">
               <li><Link to="/case-studies" className="hover:text-white transition-colors">Case Studies</Link></li>
               <li><Link to="/market" className="hover:text-white transition-colors">Market Data</Link></li>
+              <li><Link to="/investors" className="hover:text-white transition-colors">Investors</Link></li>
               <li><Link to="/about" className="hover:text-white transition-colors">Mission & Ethics</Link></li>
               <li><Link to="/partners" className="hover:text-white transition-colors">Partners</Link></li>
             </ul>
@@ -41,7 +42,10 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold mb-4">Connect</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <Link to="/contact" title="WeChat" className="text-gray-400 hover:text-white transition-colors">
+                <MessageCircle className="h-5 w-5" />
+              </Link>
+              <a href="#" className="text-gray-400 hover:text-white transition-colors" title="Twitter">
                 <Twitter className="h-5 w-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
@@ -64,9 +68,9 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} NeuroTX Education. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0 text-gray-500 text-xs">
-            <a href="#" className="hover:text-gray-300">Privacy Policy</a>
-            <a href="#" className="hover:text-gray-300">Terms of Service</a>
-            <a href="#" className="hover:text-gray-300">Data Ethics</a>
+            <Link to="/data-ethics" className="hover:text-gray-300">Data Ethics</Link>
+            <span className="text-gray-600">Privacy Policy (Coming Soon)</span>
+            <span className="text-gray-600">Terms of Service (Coming Soon)</span>
           </div>
         </div>
       </div>

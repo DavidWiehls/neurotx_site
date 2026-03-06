@@ -7,9 +7,11 @@ import Product from './pages/Product';
 import Pricing from './pages/Pricing';
 import CaseStudies from './pages/CaseStudies';
 import Market from './pages/Market';
+import Investors from './pages/Investors';
 import Partners from './pages/Partners';
 import Schools from './pages/Schools';
 import Contact from './pages/Contact';
+import DataEthics from './pages/DataEthics';
 
 export default function App() {
   return (
@@ -24,9 +26,11 @@ export default function App() {
             <Route path="/pricing" element={<Pricing />} />
             <Route path="/case-studies" element={<CaseStudies />} />
             <Route path="/market" element={<Market />} />
+            <Route path="/investors" element={<Investors />} />
             <Route path="/partners" element={<Partners />} />
             <Route path="/schools" element={<Schools />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/data-ethics" element={<DataEthics />} />
           </Routes>
         </main>
         <Footer />

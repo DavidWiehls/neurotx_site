@@ -76,6 +76,8 @@ const Contact = () => {
                   <option>Tier 1: Workshop</option>
                   <option>Tier 2: After-School Activity</option>
                   <option>Tier 3: Full Campus Integration</option>
+                  <option>Investor Inquiry</option>
+                  <option>Partnership / Cooperation</option>
                   <option>General Inquiry</option>
                 </select>
               </div>
