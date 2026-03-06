@@ -192,6 +192,43 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Strategic & Institutional Partners */}
+      <section className="py-20 border-y border-white/5 bg-zinc-900/20 overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-12">
+          <p className="text-sm font-mono text-indigo-400 uppercase tracking-widest">Strategic & Institutional Partners</p>
+          <p className="mt-2 text-gray-400 max-w-2xl mx-auto">
+            Supported by top-tier universities, government innovation hubs, and science popularization committees
+          </p>
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+            {[
+              { en: 'Zhejiang University Science Park', zh: '浙大科技园', logo: new URL('../../assets/partners/zhejiangsciencepark.jpg', import.meta.url).href },
+              { en: 'Zhejiang University of Science and Technology (ZUST)', zh: '浙江科技大学', logo: new URL('../../assets/partners/zust.jpg', import.meta.url).href },
+              { en: 'Qizhen Brain-Computer Intelligence Industrialization Base', zh: '启真脑机智能产业化基地', logo: new URL('../../assets/partners/qizhenbciindustrialization.jpg', import.meta.url).href },
+              { en: 'Zhejiang Science Popularization Federation (Sci2U)', zh: '浙江省科普联合会', logo: new URL('../../assets/partners/scien2you.jpg', import.meta.url).href },
+              { en: 'China-Germany Foshan Industry Park', zh: '佛山中德工业服务区', logo: new URL('../../assets/partners/chinagermanyfoshanindustripark.jpg', import.meta.url).href },
+              { en: 'Suzhou Innovation Center of Shanghai University', zh: '苏州上海大学创新中心', logo: new URL('../../assets/partners/suzhouinno.jpg', import.meta.url).href },
+            ].map((partner, i) => (
+              <motion.div
+                key={partner.en}
+                initial={{ opacity: 0.6, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                whileHover={{ y: -4 }}
+                className="flex flex-col items-center justify-center p-6 rounded-xl bg-zinc-900/50 border border-white/5 hover:border-indigo-500/20 hover:bg-zinc-900/80 transition-all duration-300 group"
+              >
+                <div className="h-16 w-16 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center mb-4 group-hover:border-indigo-500/30 transition-colors overflow-hidden flex-shrink-0">
+                  <img src={partner.logo} alt={partner.en} className="h-full w-full object-contain p-1" />
+                </div>
+                <span className="text-sm font-semibold text-white text-center mb-1">{partner.en}</span>
+                <span className="text-xs text-gray-500 text-center">{partner.zh}</span>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
