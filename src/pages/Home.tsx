@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { ArrowRight, Brain, Cpu, Globe, ShieldCheck } from 'lucide-react';
+import { ArrowRight, Brain, Cpu, ExternalLink, Globe, ShieldCheck } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -104,6 +104,62 @@ const Home = () => {
         </div>
       </section>
 
+      {/* BCI Journey Learning Platform */}
+      <section className="py-24 border-y border-white/5 bg-zinc-900/20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <p className="text-sm font-mono text-indigo-400 uppercase tracking-widest mb-4">Our Learning Platform</p>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">BCI Journey</h2>
+              <p className="text-gray-400 text-lg mb-6 leading-relaxed">
+                An interactive educational platform that brings brain-computer interfaces to life through 3D visualization, AI mentors, and real hardware experiments — all in your browser.
+              </p>
+              <ul className="space-y-4 mb-8">
+                {[
+                  '3D neuroanatomy & immersive simulations — no VR headset required',
+                  'AI-powered mentors (Synapse & Spark) for 24/7 voice support',
+                  'Somas & global leaderboards — earn rewards and compete',
+                  'BCI Lab: connect Unicorn Hybrid Black, run 12 real experiments in-browser',
+                ].map((item, i) => (
+                  <li key={i} className="flex items-center space-x-3">
+                    <div className="h-6 w-6 rounded-full bg-indigo-500/20 flex items-center justify-center flex-shrink-0">
+                      <div className="h-2 w-2 rounded-full bg-indigo-500" />
+                    </div>
+                    <span className="text-gray-300">{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <div className="flex flex-wrap gap-4">
+                <a
+                  href="https://davidwiehls.github.io/BCI-Journey/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-semibold transition-all"
+                >
+                  Try BCI Journey <ExternalLink className="h-4 w-4" />
+                </a>
+                <Link to="/product" className="inline-flex items-center gap-2 px-6 py-3 bg-white/10 hover:bg-white/20 text-white border border-white/10 rounded-xl font-semibold transition-all backdrop-blur-sm">
+                  Explore Curriculum <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
+            </div>
+            <div className="relative">
+              <div className="absolute inset-0 bg-indigo-500/20 blur-3xl rounded-full" />
+              <div className="relative bg-zinc-900 border border-white/10 rounded-2xl p-2 overflow-hidden">
+                <video
+                  src={new URL('../../assets/bcijourneydemos/bcijourneymain.mp4', import.meta.url).href}
+                  controls
+                  playsInline
+                  className="rounded-xl w-full h-auto"
+                >
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Stats / Trust Section */}
       <section className="py-20 border-y border-white/5 bg-zinc-900/20 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-12">
@@ -188,13 +244,17 @@ const Home = () => {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-indigo-500/20 blur-3xl rounded-full" />
-              <div className="relative bg-zinc-900 border border-white/10 rounded-2xl p-2">
-                <img 
-                  src="https://images.unsplash.com/photo-1555664424-778a6902201b?q=80&w=2000&auto=format&fit=crop" 
-                  alt="BCI Technology" 
-                  className="rounded-xl w-full h-auto grayscale hover:grayscale-0 transition-all duration-500"
-                  referrerPolicy="no-referrer"
-                />
+              <div className="relative bg-zinc-900 border border-white/10 rounded-2xl p-2 overflow-hidden">
+                <video
+                  src={new URL('../../assets/cyborgfoundation.mp4', import.meta.url).href}
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  className="rounded-xl w-full h-auto"
+                >
+                  Your browser does not support the video tag.
+                </video>
               </div>
             </div>
           </div>

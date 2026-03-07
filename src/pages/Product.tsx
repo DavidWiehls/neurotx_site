@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Layers, Monitor, Cpu, Code, Shield, Eye } from 'lucide-react';
+import { Layers, Monitor, Cpu, Code, Shield, Eye, ExternalLink } from 'lucide-react';
 
 const Product = () => {
   return (
@@ -73,8 +73,25 @@ const Product = () => {
                   <Monitor className="h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2">Proprietary LMS</h3>
-                  <p className="text-gray-400">Secure, web-based platform hosting all curriculum content. Features a "Readiness Gate" to ensure students master theory before accessing hardware.</p>
+                  <h3 className="text-xl font-bold mb-2">
+                    <a
+                      href="https://davidwiehls.github.io/BCI-Journey/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white hover:text-indigo-400 transition-colors inline-flex items-center gap-2"
+                    >
+                      BCI Journey <ExternalLink className="h-4 w-4" />
+                    </a>
+                  </h3>
+                  <p className="text-gray-400 mb-3">Our interactive learning platform: 3D neuroanatomy, AI tutors (Synapse & Spark), Somas & leaderboards, and the BCI Lab — connect Unicorn Hybrid Black via Bluetooth to run 12 real experiments (P300, Motor Imagery, SSVEP, and more) with 8-channel EEG, all in-browser. Features a "Readiness Gate" to ensure students master theory before accessing hardware.</p>
+                  <a
+                    href="https://davidwiehls.github.io/BCI-Journey/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-sm font-medium transition-colors"
+                  >
+                    Try BCI Journey <ExternalLink className="h-4 w-4" />
+                  </a>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -107,9 +124,45 @@ const Product = () => {
           </div>
         </div>
 
+        {/* Platform Demos */}
+        <div className="mb-24">
+          <h2 className="text-3xl font-bold mb-10 border-l-4 border-indigo-500 pl-4">Platform Demos</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              { title: 'Platform Overview', src: 'bcijourneymain.mp4', desc: 'Explore 3D neuroanatomy, interactive simulations, and the full learning experience.' },
+              { title: 'BCI Lab: Real Experiments', src: 'bcijourneylab.mp4', desc: 'Connect the Unicorn Hybrid Black headset and run live EEG experiments in-browser.' },
+              { title: 'AI Mentors: Synapse & Spark', src: 'bcijourneylisten.mp4', desc: 'Voice conversations with AI tutors available 24/7 for personalized support.' },
+            ].map((demo, i) => (
+              <motion.div
+                key={demo.src}
+                whileHover={{ y: -4 }}
+                className="bg-zinc-900/50 border border-white/10 rounded-xl overflow-hidden"
+              >
+                <div className="aspect-video bg-black">
+                  <video
+                    src={new URL(`../../assets/bcijourneydemos/${demo.src}`, import.meta.url).href}
+                    controls
+                    playsInline
+                    className="w-full h-full object-contain"
+                  >
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div className="p-4">
+                  <h3 className="font-bold mb-2">{demo.title}</h3>
+                  <p className="text-gray-400 text-sm">{demo.desc}</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+
         {/* Experiment List */}
         <div className="bg-zinc-900/30 border border-white/5 rounded-2xl p-8">
-          <h2 className="text-2xl font-bold mb-8 text-center">Master List of Experiments</h2>
+          <h2 className="text-2xl font-bold mb-2 text-center">Master List of Experiments</h2>
+          <p className="text-gray-400 text-sm text-center mb-8 max-w-2xl mx-auto">
+            Delivered via BCI Journey's BCI Lab module — connect your Unicorn Hybrid Black headset and run these paradigms in-browser.
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <h3 className="text-indigo-400 font-mono mb-4 text-sm uppercase tracking-wider">Passive BCI</h3>
