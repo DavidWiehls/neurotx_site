@@ -1,18 +1,15 @@
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
-import { TrendingUp, Users, School, Globe } from 'lucide-react';
+import PageHeader from '../components/ui/PageHeader';
 
 const Market = () => {
   return (
     <div className="bg-black text-white pt-24 pb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        <div className="text-center max-w-3xl mx-auto mb-20">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">Market Assessment</h1>
-          <p className="text-xl text-gray-400">
-            Quantifying the Ideal Customer Profile for BCI Education Integration Across China's Urban Centers.
-          </p>
-        </div>
+        <PageHeader
+          title="Market Assessment"
+          subtitle="Quantifying the Ideal Customer Profile for BCI Education Integration Across China's Urban Centers."
+        />
 
         {/* Stats Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-24">

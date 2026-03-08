@@ -1,17 +1,15 @@
 import { motion } from 'motion/react';
 import { Shield, Lock, Building2 } from 'lucide-react';
+import PageHeader from '../components/ui/PageHeader';
 
 const DataEthics = () => {
   return (
     <div className="bg-black text-white pt-24 pb-12">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-
-        <div className="mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Data Ethics & Privacy</h1>
-          <p className="text-xl text-gray-400">
-            Neural data is the most intimate form of personal property. Our privacy framework is uncompromising.
-          </p>
-        </div>
+        <PageHeader
+          title="Data Ethics & Privacy"
+          subtitle="Neural data is the most intimate form of personal property. Our privacy framework is uncompromising."
+        />
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}

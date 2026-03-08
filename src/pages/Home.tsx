@@ -1,6 +1,8 @@
 import { motion } from 'motion/react';
-import { ArrowRight, BookOpen, Brain, Cpu, ExternalLink, Globe, ShieldCheck } from 'lucide-react';
+import { ArrowRight, BookOpen, Brain, ExternalLink, Globe, ShieldCheck } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { assets } from '../lib/assets';
+import { trustSchools, institutionalPartners } from '../data/partners';
 
 const Home = () => {
   return (
@@ -13,8 +15,9 @@ const Home = () => {
           muted
           loop
           playsInline
+          preload="auto"
           className="absolute inset-0 w-full h-full object-cover z-0"
-          src={new URL('../../assets/introvideo.mp4', import.meta.url).href}
+          src={assets.videos.introvideo}
         />
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-indigo-900/30 via-black/70 to-black z-[1]" />
@@ -201,11 +204,12 @@ const Home = () => {
               <div className="absolute inset-0 bg-indigo-500/20 blur-3xl rounded-full" />
               <div className="relative bg-zinc-900 border border-white/10 rounded-2xl p-2 overflow-hidden">
                 <video
-                  src={new URL('../../assets/bcijourneydemos/bcijourneymain.mp4', import.meta.url).href}
+                  src={assets.videos.bcijourneymain}
                   autoPlay
                   muted
                   loop
                   playsInline
+                  preload="metadata"
                   className="rounded-xl w-full h-auto"
                 >
                   Your browser does not support the video tag.
@@ -223,22 +227,7 @@ const Home = () => {
         </div>
         <div className="relative">
           <div className="flex animate-scroll">
-            {(() => {
-              const trustSchools = [
-                { en: 'Hangzhou Chongwen Century City Experimental School', zh: '杭州市萧山崇文实验学校', badge: 'Official br41n.io Hosting Institution', initials: 'CC', logo: new URL('../../assets/partners/chongwen.jpg', import.meta.url).href },
-                { en: 'Hangzhou Xuejun Wenyuan Experimental School', zh: '杭州学军文渊实验科学', initials: 'XW', logo: new URL('../../assets/partners/xuejun.jpg', import.meta.url).href },
-                { en: 'Hangzhou Wahaha Bilingual School', zh: '杭州娃哈哈双语学校', initials: 'WH', logo: new URL('../../assets/partners/wahaha.jpg', import.meta.url).href },
-                { en: 'Hangzhou Entel Foreign Language School', zh: '杭州英特外国语学校', initials: 'ET', logo: new URL('../../assets/partners/entel.jpg', import.meta.url).href },
-                { en: 'Hangzhou No.2 High School Qianjiang', zh: '杭州第二中学钱江', initials: 'HZ', logo: new URL('../../assets/partners/hangerqiangjiang.jpg', import.meta.url).href },
-                { en: 'Zhejiang Wenling High School', zh: '浙江省温岭中学', initials: 'WL', logo: new URL('../../assets/partners/wenjing.jpg', import.meta.url).href },
-                { en: 'Overseas Chinese Academy of Concord Suzhou (OCAC)', zh: '苏州工业园区海归人才子女学校', initials: 'OC', logo: new URL('../../assets/partners/ocac.jpg', import.meta.url).href },
-                { en: 'Britannia International School in Guangzhou (BIS)', zh: '广州市英伦外籍人员子女学校', initials: 'BI', logo: new URL('../../assets/partners/bisguangzhou.jpg', import.meta.url).href },
-                { en: 'Canadian International School of Guangzhou (CIS)', zh: '广州市加拿大外籍人员子女学校', initials: 'CI', logo: new URL('../../assets/partners/cisguangzhou.jpg', import.meta.url).href },
-                { en: 'Foshan No.1 High School', zh: '佛山市第一中学', initials: 'FS', logo: new URL('../../assets/partners/foshandiyi.jpg', import.meta.url).href },
-                { en: 'EtonHouse International Education Group', zh: '新加坡伊顿国际教育集团', initials: 'EH', logo: new URL('../../assets/partners/etonhouse.jpg', import.meta.url).href },
-                { en: 'Canada Kent School', zh: '加拿大肯特学校', initials: 'CK', logo: new URL('../../assets/partners/kentcanada.jpg', import.meta.url).href },
-              ];
-              return [...trustSchools, ...trustSchools].map((school, i) => (
+            {[...trustSchools, ...trustSchools].map((school, i) => (
               <motion.div
                 key={`${school.en}-${i}`}
                 initial={{ opacity: 0.6 }}
@@ -262,8 +251,7 @@ const Home = () => {
                   </span>
                 )}
               </motion.div>
-            ));
-            })()}
+            ))}
           </div>
         </div>
       </section>
@@ -302,11 +290,12 @@ const Home = () => {
               <div className="absolute inset-0 bg-indigo-500/20 blur-3xl rounded-full" />
               <div className="relative bg-zinc-900 border border-white/10 rounded-2xl p-2 overflow-hidden">
                 <video
-                  src={new URL('../../assets/cyborgfoundation.mp4', import.meta.url).href}
+                  src={assets.videos.cyborgfoundation}
                   autoPlay
                   muted
                   loop
                   playsInline
+                  preload="metadata"
                   className="rounded-xl w-full h-auto"
                 >
                   Your browser does not support the video tag.
@@ -327,14 +316,7 @@ const Home = () => {
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-            {[
-              { en: 'Zhejiang University Science Park', zh: '浙大科技园', logo: new URL('../../assets/partners/zhejiangsciencepark.jpg', import.meta.url).href },
-              { en: 'Zhejiang University of Science and Technology (ZUST)', zh: '浙江科技大学', logo: new URL('../../assets/partners/zust.jpg', import.meta.url).href },
-              { en: 'Qizhen Brain-Computer Intelligence Industrialization Base', zh: '启真脑机智能产业化基地', logo: new URL('../../assets/partners/qizhenbciindustrialization.jpg', import.meta.url).href },
-              { en: 'Zhejiang Science Popularization Federation (Sci2U)', zh: '浙江省科普联合会', logo: new URL('../../assets/partners/scien2you.jpg', import.meta.url).href },
-              { en: 'China-Germany Foshan Industry Park', zh: '佛山中德工业服务区', logo: new URL('../../assets/partners/chinagermanyfoshanindustripark.jpg', import.meta.url).href },
-              { en: 'Suzhou Innovation Center of Shanghai University', zh: '苏州上海大学创新中心', logo: new URL('../../assets/partners/suzhouinno.jpg', import.meta.url).href },
-            ].map((partner, i) => (
+            {institutionalPartners.map((partner) => (
               <motion.div
                 key={partner.en}
                 initial={{ opacity: 0.6, y: 10 }}

@@ -1,18 +1,16 @@
 import { motion } from 'motion/react';
 import { Shield, Lock } from 'lucide-react';
+import PageHeader from '../components/ui/PageHeader';
+import davidProfile from '../assets/company-information/David_profile.JPG';
 
 const About = () => {
   return (
     <div className="bg-black text-white pt-24 pb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-20">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">The "Cyborg" Foundation</h1>
-          <p className="text-xl text-gray-400 leading-relaxed">
-            We view neurotechnology not just as an external tool, but as the eventual, seamless extension of the human spirit.
-          </p>
-        </div>
+        <PageHeader
+          title='The "Cyborg" Foundation'
+          subtitle="We view neurotechnology not just as an external tool, but as the eventual, seamless extension of the human spirit."
+        />
 
         {/* Mission Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-24">
@@ -83,7 +81,7 @@ const About = () => {
             </div>
             <div className="bg-zinc-800 h-64 md:h-auto relative">
                <img 
-                src={new URL('../../assets/company-information/David_profile.JPG', import.meta.url).href}
+                src={davidProfile}
                 alt="David Wiehls"
                 className="w-full h-full object-cover object-top"
                />

@@ -1,17 +1,15 @@
-import { motion } from 'motion/react';
-import { Mail, MapPin, Phone } from 'lucide-react';
+import { Mail, MapPin } from 'lucide-react';
+import PageHeader from '../components/ui/PageHeader';
+import { assets } from '../lib/assets';
 
 const Contact = () => {
   return (
     <div className="bg-black text-white pt-24 pb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        <div className="text-center max-w-3xl mx-auto mb-20">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">Get in Touch</h1>
-          <p className="text-xl text-gray-400">
-            Ready to bring the future of neurotechnology to your school?
-          </p>
-        </div>
+        <PageHeader
+          title="Get in Touch"
+          subtitle="Ready to bring the future of neurotechnology to your school?"
+        />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           
@@ -46,7 +44,7 @@ const Contact = () => {
                 <div className="flex flex-wrap gap-8">
                   <div className="flex flex-col items-center gap-2">
                     <img
-                      src={new URL('../../assets/brand/wechat-qr.jpg', import.meta.url).href}
+                      src={assets.brand.wechatQr}
                       alt="WeChat QR code"
                       className="w-32 h-32 rounded-lg border border-white/10 object-contain bg-white"
                     />
@@ -54,7 +52,7 @@ const Contact = () => {
                   </div>
                   <div className="flex flex-col items-center gap-2">
                     <img
-                      src={new URL('../../assets/brand/whtasapp-qr.jpg', import.meta.url).href}
+                      src={assets.brand.whatsappQr}
                       alt="WhatsApp QR code"
                       className="w-32 h-32 rounded-lg border border-white/10 object-contain bg-white"
                     />

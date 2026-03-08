@@ -1,18 +1,16 @@
 import { motion } from 'motion/react';
 import { TrendingUp, Layers, Cpu, Globe } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import PageHeader from '../components/ui/PageHeader';
 
 const Investors = () => {
   return (
     <div className="bg-black text-white pt-24 pb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
-        <div className="text-center max-w-3xl mx-auto mb-20">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">Investment Highlights</h1>
-          <p className="text-xl text-gray-400">
-            NeuroTX is building the bridge between university-level neurotechnology and K-12 education. Scalable unit economics, clear TAM, and a hybrid logistics model designed for margin preservation.
-          </p>
-        </div>
+        <PageHeader
+          title="Investment Highlights"
+          subtitle="NeuroTX is building the bridge between university-level neurotechnology and K-12 education. Scalable unit economics, clear TAM, and a hybrid logistics model designed for margin preservation."
+        />
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-24">
           <motion.div

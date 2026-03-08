@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { Cpu, School, Building2, CircuitBoard } from 'lucide-react';
+import PageHeader from '../components/ui/PageHeader';
 
 const Partners = () => {
   const partners = [
@@ -46,12 +47,10 @@ const Partners = () => {
     <div className="bg-black text-white pt-24 pb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <div className="text-center max-w-3xl mx-auto mb-20">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">Trust Network</h1>
-          <p className="text-xl text-gray-400">
-            Our operational success is supported by a robust network of top-tier universities, government innovation hubs, and elite schools.
-          </p>
-        </div>
+        <PageHeader
+          title="Trust Network"
+          subtitle="Our operational success is supported by a robust network of top-tier universities, government innovation hubs, and elite schools."
+        />
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}

@@ -1,12 +1,10 @@
 import { useState, type ReactNode } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
-import { MapPin, X, ExternalLink } from 'lucide-react';
+import { motion } from 'motion/react';
+import { MapPin, ExternalLink } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
-const wechatUrl = {
-  hangzhouNo2: 'https://mp.weixin.qq.com/s/hE2bai_ASl91InvxFqyvlw',
-  wenling: 'https://mp.weixin.qq.com/s/H2aGYxX1h-dyorgjyC7AmQ',
-};
+import Modal from '../components/ui/Modal';
+import PageHeader from '../components/ui/PageHeader';
+import { caseStudies } from '../data/caseStudies';
 
 const fullCaseStudyContent: Record<string, ReactNode> = {
   hangzhouNo2: (
@@ -218,60 +216,16 @@ const fullCaseStudyContent: Record<string, ReactNode> = {
 
 const CaseStudies = () => {
   const [openCaseId, setOpenCaseId] = useState<string | null>(null);
-
-  const cases = [
-    {
-      id: 'hangzhouNo2',
-      school: "Hangzhou No.2 High School Qianjiang",
-      type: "Elite International Division",
-      title: "The Global Neuroscience Pathway",
-      summary: "Connecting Year 12 students to the world's leading BCI researchers. Students traveled to Europe to visit official Hosting Institutes and networked with hackathon judges.",
-      tags: ["International Mobility", "Research Networking", "Elite Admissions"],
-      image: new URL('../../assets/partners/casestudy_hangerqiangjiang.jpg', import.meta.url).href,
-      wechatUrl: wechatUrl.hangzhouNo2,
-    },
-    {
-      id: 'wenling',
-      school: "Zhejiang Wenling High School",
-      type: "Top-Tier Public High School",
-      title: "Bridging Local Excellence with Global Neuroscience",
-      summary: "Elevating public school STEM to the global stage. A select cohort of senior students integrated into international hackathon teams, proving capability to elite domestic and foreign universities.",
-      tags: ["Public School Innovation", "Global Competition", "Hard Tech Portfolio"],
-      image: new URL('../../assets/partners/casestudy_wenling.png', import.meta.url).href,
-      wechatUrl: wechatUrl.wenling,
-    },
-    {
-      id: 'entel',
-      school: "Hangzhou Entel Foreign Language School",
-      type: "Foreign Language School",
-      title: "The Sino-German Tech Bridge",
-      summary: "Pairing linguistic excellence with 'Hard' Tech. 50+ students used the program to build portfolios for Germany's elite TU9 engineering universities (RWTH Aachen, TUM, KIT).",
-      tags: ["Sino-German Bridge", "High Volume", "Engineering Focus"],
-      image: new URL('../../assets/partners/casestudy_entel.jpg', import.meta.url).href,
-      wechatUrl: null,
-    },
-    {
-      id: 'ocac',
-      school: "Overseas Chinese Academy of Concord Suzhou (OCAC)",
-      type: "High-Volume Middle School",
-      title: "Scaling the Turnkey ASA Across Middle Grades",
-      summary: "OCAC established itself as a regional leader in neurotechnology by deploying the 16-week Turnkey ASA to large middle school cohorts. The program proved that BCI can scale across younger grades, driving institutional FOMO across Suzhou's top-tier international schools.",
-      tags: ["Middle School ASA", "Regional Leadership", "Scalable Deployment"],
-      image: new URL('../../assets/partners/casestudy_ocac.jpg', import.meta.url).href,
-      wechatUrl: null,
-    }
-  ];
+  const cases = caseStudies;
 
   return (
     <div className="bg-black text-white pt-24 pb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div className="text-center max-w-3xl mx-auto mb-20">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">Success Stories</h1>
-          <p className="text-xl text-gray-400">
-            Real-world impact across International, Public, and Foreign Language schools.
-          </p>
-        </div>
+        <PageHeader
+          title="Success Stories"
+          subtitle="Real-world impact across International, Public, and Foreign Language schools."
+        />
 
         <div className="space-y-16">
           {cases.map((study, index) => (
@@ -344,57 +298,35 @@ const CaseStudies = () => {
 
       </div>
 
-      {/* Full Case Study Modal */}
-      <AnimatePresence>
+      <Modal
+        isOpen={!!openCaseId && !!fullCaseStudyContent[openCaseId!]}
+        onClose={() => setOpenCaseId(null)}
+      >
         {openCaseId && fullCaseStudyContent[openCaseId] && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm"
-            onClick={() => setOpenCaseId(null)}
-          >
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95, y: 20 }}
-              animate={{ opacity: 1, scale: 1, y: 0 }}
-              exit={{ opacity: 0, scale: 0.95, y: 20 }}
-              transition={{ duration: 0.2 }}
-              className="relative w-full max-w-3xl max-h-[90vh] overflow-y-auto rounded-2xl bg-zinc-900 border border-white/10 p-8 shadow-2xl"
-              onClick={e => e.stopPropagation()}
-            >
-              <button
-                onClick={() => setOpenCaseId(null)}
-                className="absolute top-6 right-6 p-2 rounded-lg bg-white/5 hover:bg-white/10 text-gray-400 hover:text-white transition-colors"
-                aria-label="Close"
-              >
-                <X className="h-5 w-5" />
-              </button>
-              <div className="pr-12">
-                {fullCaseStudyContent[openCaseId]}
-              </div>
-              <div className="mt-8 pt-6 border-t border-white/10 flex flex-wrap gap-4">
-                {cases.find(c => c.id === openCaseId)?.wechatUrl && (
-                  <a
-                    href={cases.find(c => c.id === openCaseId)!.wechatUrl!}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#07C160]/20 hover:bg-[#07C160]/30 text-[#07C160] border border-[#07C160]/30 transition-colors"
-                  >
-                    <ExternalLink className="h-4 w-4" />
-                    View WeChat Post
-                  </a>
-                )}
-                <Link
-                  to="/contact"
-                  className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white transition-colors"
+          <>
+            {fullCaseStudyContent[openCaseId]}
+            <div className="mt-8 pt-6 border-t border-white/10 flex flex-wrap gap-4">
+              {cases.find((c) => c.id === openCaseId)?.wechatUrl && (
+                <a
+                  href={cases.find((c) => c.id === openCaseId)!.wechatUrl!}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#07C160]/20 hover:bg-[#07C160]/30 text-[#07C160] border border-[#07C160]/30 transition-colors"
                 >
-                  Contact Us
-                </Link>
-              </div>
-            </motion.div>
-          </motion.div>
+                  <ExternalLink className="h-4 w-4" />
+                  View WeChat Post
+                </a>
+              )}
+              <Link
+                to="/contact"
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white transition-colors"
+              >
+                Contact Us
+              </Link>
+            </div>
+          </>
         )}
-      </AnimatePresence>
+      </Modal>
     </div>
   );
 };

@@ -1,21 +1,21 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
 import { Layers, Monitor, Cpu, Code, Shield, Eye, ExternalLink, Volume2, VolumeX } from 'lucide-react';
+import PageHeader from '../components/ui/PageHeader';
+import { assets } from '../lib/assets';
 
 const Product = () => {
   const [aiMentorsMuted, setAiMentorsMuted] = useState(true);
 
-  const toggleAiMentorsMute = () => setAiMentorsMuted(prev => !prev);
+  const toggleAiMentorsMute = () => setAiMentorsMuted((prev) => !prev);
+
   return (
     <div className="bg-black text-white pt-24 pb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        <div className="text-center max-w-3xl mx-auto mb-20">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">The Neural Architect</h1>
-          <p className="text-xl text-gray-400">
-            We don't just teach coding; we teach System Design. From block-based logic to AI-assisted Python architecture.
-          </p>
-        </div>
+        <PageHeader
+          title="The Neural Architect"
+          subtitle="We don't just teach coding; we teach System Design. From block-based logic to AI-assisted Python architecture."
+        />
 
         {/* 16-Week Syllabus Overview */}
         <div className="mb-24">
@@ -120,11 +120,12 @@ const Product = () => {
           </div>
           <div className="bg-zinc-900 rounded-2xl border border-white/10 p-2 overflow-hidden">
              <video
-                src={new URL('../../assets/fathersonbci.mp4', import.meta.url).href}
+                src={assets.videos.fathersonbci}
                 autoPlay
                 loop
                 muted
                 playsInline
+                preload="metadata"
                 className="rounded-xl w-full h-full object-cover"
                 aria-label="Father and son using BCI"
              />
@@ -141,9 +142,10 @@ const Product = () => {
           >
             <div className="aspect-video bg-black">
               <video
-                src={new URL('../../assets/bcijourneydemos/talkmode.mp4', import.meta.url).href}
+                src={assets.videos.talkmode}
                 controls
                 playsInline
+                preload="metadata"
                 className="w-full h-full object-contain"
               >
                 Your browser does not support the video tag.
@@ -164,9 +166,10 @@ const Product = () => {
           >
             <div className="aspect-video bg-black">
               <video
-                src={new URL('../../assets/introvideo.mp4', import.meta.url).href}
+                src={assets.videos.introvideo}
                 controls
                 playsInline
+                preload="metadata"
                 className="w-full h-full object-contain"
               >
                 Your browser does not support the video tag.
@@ -186,21 +189,22 @@ const Product = () => {
           <h2 className="text-3xl font-bold mb-10 border-l-4 border-indigo-500 pl-4">Platform Demos</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { title: 'Platform Overview', src: 'bcijourneymain.mp4', desc: 'Explore 3D neuroanatomy, interactive simulations, and the full learning experience.' },
-              { title: 'BCI Lab: Real Experiments', src: 'bcijourneylab.mp4', desc: 'Connect the Unicorn Hybrid Black headset and run live EEG experiments in-browser.' },
-              { title: 'AI Mentors: Synapse & Spark', src: 'bcijourneylisten.mp4', desc: 'Voice conversations with AI tutors available 24/7 for personalized support.', hasMuteButton: true },
+              { title: 'Platform Overview', src: assets.videos.bcijourneymain, desc: 'Explore 3D neuroanatomy, interactive simulations, and the full learning experience.' },
+              { title: 'BCI Lab: Real Experiments', src: assets.videos.bcijourneylab, desc: 'Connect the Unicorn Hybrid Black headset and run live EEG experiments in-browser.' },
+              { title: 'AI Mentors: Synapse & Spark', src: assets.videos.bcijourneylisten, desc: 'Voice conversations with AI tutors available 24/7 for personalized support.', hasMuteButton: true },
             ].map((demo) => (
               <motion.div
-                key={demo.src}
+                key={demo.title}
                 whileHover={{ y: -4 }}
                 className="bg-zinc-900/50 border border-white/10 rounded-xl overflow-hidden"
               >
                 <div className="aspect-video bg-black relative">
                   <video
-                    src={new URL(`../../assets/bcijourneydemos/${demo.src}`, import.meta.url).href}
+                    src={demo.src}
                     autoPlay
                     loop
                     playsInline
+                    preload="metadata"
                     muted={demo.hasMuteButton ? aiMentorsMuted : undefined}
                     className="w-full h-full object-contain"
                   >

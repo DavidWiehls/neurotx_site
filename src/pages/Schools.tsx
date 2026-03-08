@@ -1,18 +1,16 @@
 import { motion } from 'motion/react';
 import { CheckCircle, Award, Globe, Zap } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import PageHeader from '../components/ui/PageHeader';
 
 const Schools = () => {
   return (
     <div className="bg-black text-white pt-24 pb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        <div className="text-center max-w-3xl mx-auto mb-20">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">Elevate STEM Prestige</h1>
-          <p className="text-xl text-gray-400">
-            A Turnkey Pathway to Elite University Portfolios via the Global br41n.io Hackathon.
-          </p>
-        </div>
+        <PageHeader
+          title="Elevate STEM Prestige"
+          subtitle="A Turnkey Pathway to Elite University Portfolios via the Global br41n.io Hackathon."
+        />
 
         {/* Value Prop Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
