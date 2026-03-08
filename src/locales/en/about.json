@@ -1,0 +1,40 @@
+{
+  "title": "The \"Cyborg\" Foundation",
+  "subtitle": "We view neurotechnology not just as an external tool, but as the eventual, seamless extension of the human spirit.",
+  "mission": {
+    "title": "Our Mission",
+    "items": [
+      {
+        "title": "Demystify Neural Integration",
+        "desc": "Transition BCI from \"science fiction\" to a foundational life skill."
+      },
+      {
+        "title": "Cognitive Evolution",
+        "desc": "Enable students to acquire skills through non-traditional, direct neural pathways (Input/Neurofeedback)."
+      },
+      {
+        "title": "Positive Future Acceptance",
+        "desc": "Cultivate a generation that views the \"Cyborg Future\" with agency, ethics, and optimism."
+      }
+    ]
+  },
+  "ethical": {
+    "title": "Ethical Stance",
+    "intro": "Neural data is the most intimate form of personal property. Our privacy framework is uncompromising.",
+    "institutional": {
+      "title": "Institutional Responsibility",
+      "desc": "We operate strictly B2B. The educational institution remains the legal and ethical steward of the students' neural data."
+    },
+    "collaborative": {
+      "title": "Collaborative Protection",
+      "desc": "We partner with schools to create a fortified, closed-loop environment. Data never enters the commercial wild."
+    }
+  },
+  "founder": {
+    "badge": "FOUNDER & LEAD",
+    "name": "David Wiehls",
+    "bio": "German engineer, Official China Host Partner, and Global Jury Member for the br41n.io Hackathon. An RWTH Aachen graduate dedicated to bridging the gap between pure neuroscience and applied robotics in K-12 education.",
+    "rwth": "RWTH Aachen Alumnus",
+    "br41n": "br41n.io Jury Member"
+  }
+}

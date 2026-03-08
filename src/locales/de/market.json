@@ -1,0 +1,57 @@
+{
+  "title": "Marktbewertung",
+  "subtitle": "Quantifizierung des idealen Kundenprofils für BCI-Bildungsintegration in Chinas urbanen Zentren.",
+  "stats": {
+    "tam": {
+      "label": "Gesamter addressierbarer Markt",
+      "value": "~1,950",
+      "sublabel": "Qualifizierte Schulen"
+    },
+    "cities": {
+      "label": "Zielstädte",
+      "value": "49",
+      "sublabel": "Tier 1, Neues Tier 1, Tier 2"
+    },
+    "stem": {
+      "label": "Globaler STEM-Markt",
+      "value": "$131B",
+      "sublabel": "Bis 2030 (Prognose)"
+    },
+    "abroad": {
+      "label": "Auslandsstudierende",
+      "value": "900k+",
+      "sublabel": "Aus China"
+    }
+  },
+  "segments": {
+    "1": {
+      "title": "Segment I: Premium Internationale & Private Bilinguale Schulen",
+      "desc": "Der Kern-Tier-2-Markt. Schulen mit hoher Autonomie und wohlhabenden Eltern, die Elite-Universitätsportfolios suchen.",
+      "icp": "Geschätztes ICP: 600–750 Schulen",
+      "model": "Primärmodell: Tier 2 (ASA)"
+    },
+    "2": {
+      "title": "Segment II: Elite-öffentliche Gymnasien & Fremdsprachenakademien",
+      "desc": "Der „Hybrid\"-Markt. Institutionen, die „Hard Tech\"-Portfolios brauchen, um sprachliche Exzellenz auszugleichen und global zu konkurrieren.",
+      "icp": "Geschätztes ICP: 250–300 Schulen",
+      "model": "Primärmodell: Tier 2 & 3"
+    },
+    "3": {
+      "title": "Segment III: MOE KI-Basen & Provinz-Modellgymnasien",
+      "desc": "Der Tier-3-SaaS-Markt. Chinas Bildungsministerium hat 184 offizielle KI-Bildungsstätten mit garantiertem Zugang zu Kapital und Modernisierungsmitteln ausgewiesen. Direkte Ausrichtung auf nationale KI-Integrationsziele bis 2030.",
+      "icp": "Geschätztes ICP: 400–500 Schulen",
+      "model": "Primärmodell: Tier 3 (Neural Campus)"
+    },
+    "4": {
+      "title": "Segment IV: Sonderpädagogik-Hubs",
+      "desc": "Inklusive neurale Rehabilitation. Passives BCI für Neurofeedback und adaptives Lernen in staatlich subventionierten Pilotzonen.",
+      "icp": "Geschätztes ICP: 300–400 Schulen",
+      "model": "Primärmodell: Tier 3 (Neural Campus)"
+    }
+  },
+  "highlights": {
+    "title": "Investment-Highlights",
+    "desc": "Dreiströmige Umsätze, hybrides Logistikmodell und ~1.550–1.950 qualifizierte Schulen. Unit Economics und Skalierungsstrategie erkunden.",
+    "cta": "Für Investoren"
+  }
+}

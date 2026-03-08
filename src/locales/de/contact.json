@@ -1,0 +1,45 @@
+{
+  "title": "Kontakt aufnehmen",
+  "subtitle": "Bereit, die Zukunft der Neurotechnologie an Ihre Schule zu bringen?",
+  "info": {
+    "title": "Kontaktinformationen",
+    "email": {
+      "title": "E-Mail",
+      "value": "davidwiehls@neurotx.education",
+      "desc": "Für Partnerschaftsanfragen und Beratungen."
+    },
+    "hq": {
+      "title": "Hauptsitz",
+      "value": "Hangzhou, China",
+      "desc": "Tätig im Jangtse-Delta und im Greater Bay Area."
+    },
+    "scan": "Scannen zum Verbinden",
+    "wechat": "WeChat",
+    "whatsapp": "WhatsApp"
+  },
+  "schoolsBox": {
+    "title": "Für Schulen & Partner",
+    "desc": "Wir erweitern derzeit unsere BCI-Hackathon-Pipeline. Wenn Sie STEM-Direktor oder Schulleiter sind und eine Partnerschaft etablieren möchten, kontaktieren Sie uns direkt für eine Demo."
+  },
+  "form": {
+    "title": "Nachricht senden",
+    "name": "Name",
+    "namePlaceholder": "Max Mustermann",
+    "email": "E-Mail",
+    "emailPlaceholder": "max@school.edu",
+    "school": "Schule / Organisation",
+    "schoolPlaceholder": "Internationale Schule...",
+    "interest": "Ich interessiere mich für...",
+    "interests": [
+      "Stufe 1: Workshop",
+      "Stufe 2: Nachmittagsaktivität",
+      "Stufe 3: Vollständige Campus-Integration",
+      "Investorenanfrage",
+      "Partnerschaft / Kooperation",
+      "Allgemeine Anfrage"
+    ],
+    "message": "Nachricht",
+    "messagePlaceholder": "Erzählen Sie uns von den Bedürfnissen Ihrer Schule...",
+    "submit": "Nachricht senden"
+  }
+}

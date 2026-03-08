@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "product": "产品",
+    "pricing": "定价",
+    "caseStudies": "案例研究",
+    "market": "市场",
+    "investors": "投资者",
+    "partners": "合作伙伴",
+    "schools": "学校合作",
+    "contact": "联系我们"
+  },
+  "footer": {
+    "tagline": "揭开神经集成的神秘面纱。将脑机接口从科幻变为下一代的基础生活技能。",
+    "platform": "平台",
+    "curriculum": "课程",
+    "hardware": "硬件",
+    "pricing": "定价",
+    "forSchools": "学校合作",
+    "resources": "资源",
+    "caseStudies": "案例研究",
+    "marketData": "市场数据",
+    "investors": "投资者",
+    "missionEthics": "使命与伦理",
+    "partners": "合作伙伴",
+    "connect": "联系",
+    "contactUs": "联系我们",
+    "copyright": "NeuroTX 教育。保留所有权利。",
+    "dataEthics": "数据伦理",
+    "privacyPolicy": "隐私政策（即将推出）",
+    "termsOfService": "服务条款（即将推出）"
+  },
+  "brand": "NeuroTX"
+}

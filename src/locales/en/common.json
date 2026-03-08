@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "product": "Product",
+    "pricing": "Pricing",
+    "caseStudies": "Case Studies",
+    "market": "Market",
+    "investors": "Investors",
+    "partners": "Partners",
+    "schools": "For Schools",
+    "contact": "Contact"
+  },
+  "footer": {
+    "tagline": "Demystifying Neural Integration. Transitioning BCI from science fiction to a foundational life skill for the next generation.",
+    "platform": "Platform",
+    "curriculum": "Curriculum",
+    "hardware": "Hardware",
+    "pricing": "Pricing",
+    "forSchools": "For Schools",
+    "resources": "Resources",
+    "caseStudies": "Case Studies",
+    "marketData": "Market Data",
+    "investors": "Investors",
+    "missionEthics": "Mission & Ethics",
+    "partners": "Partners",
+    "connect": "Connect",
+    "contactUs": "Contact Us",
+    "copyright": "NeuroTX Education. All rights reserved.",
+    "dataEthics": "Data Ethics",
+    "privacyPolicy": "Privacy Policy (Coming Soon)",
+    "termsOfService": "Terms of Service (Coming Soon)"
+  },
+  "brand": "NeuroTX"
+}

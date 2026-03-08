@@ -1,0 +1,105 @@
+{
+  "title": "The Neural Architect",
+  "subtitle": "We don't just teach coding; we teach System Design. From block-based logic to AI-assisted Python architecture.",
+  "curriculum": {
+    "title": "16-Week Curriculum",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Foundations & Ethics",
+        "weeks": "Weeks 1-4",
+        "desc": "Establish neural literacy, data privacy, and signal logic. Transition from blocks to AI prompts."
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Passive BCI",
+        "weeks": "Weeks 5-8",
+        "desc": "Understanding the 'Input' side. Cognitive state detection, focus metrics, and neurofeedback."
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Reactive BCI",
+        "weeks": "Weeks 9-12",
+        "desc": "Evoked Potentials (P300/SSVEP). Using automatic brain responses to trigger digital actions."
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Active BCI & Capstone",
+        "weeks": "Weeks 13-16",
+        "desc": "Motor Imagery (MI). Using thought-of-movement to control physical robots (VEX/LEGO)."
+      }
+    ]
+  },
+  "techStack": {
+    "title": "The Tech Stack",
+    "bciJourney": {
+      "title": "BCI Journey",
+      "desc": "Our interactive learning platform: 3D neuroanatomy, AI tutors (Synapse & Spark), Somas & leaderboards, and the BCI Lab — connect Unicorn Hybrid Black via Bluetooth to run 12 real experiments (P300, Motor Imagery, SSVEP, and more) with 8-channel EEG, all in-browser. Features a \"Readiness Gate\" to ensure students master theory before accessing hardware.",
+      "cta": "Try BCI Journey"
+    },
+    "hardware": {
+      "title": "Hardware: Unicorn Hybrid Black",
+      "desc": "Research-grade 8-channel EEG headset. The industry standard for university hackathons, provided by our partner g.tec."
+    },
+    "aiCoding": {
+      "title": "AI-Assisted Coding",
+      "desc": "We teach students to be System Architects. Using Natural Language Prompts to generate Python pipelines for FFT and Classifiers."
+    }
+  },
+  "aiAssistants": {
+    "title": "AI Assistants 24/7",
+    "desc": "The BCI Journey learning platform features AI tutors available around the clock to support your learning process. Get instant help with concepts, coding, and neurotechnology — whenever you need it."
+  },
+  "hardwareAction": {
+    "title": "Hardware in Action",
+    "desc": "See the hardware component of our curriculum — research-grade EEG headsets, hands-on BCI experiments, and students bridging the gap between brain and machine in real classroom settings."
+  },
+  "demos": {
+    "title": "Platform Demos",
+    "items": [
+      {
+        "title": "Platform Overview",
+        "desc": "Explore 3D neuroanatomy, interactive simulations, and the full learning experience."
+      },
+      {
+        "title": "BCI Lab: Real Experiments",
+        "desc": "Connect the Unicorn Hybrid Black headset and run live EEG experiments in-browser."
+      },
+      {
+        "title": "AI Mentors: Synapse & Spark",
+        "desc": "Voice conversations with AI tutors available 24/7 for personalized support."
+      }
+    ]
+  },
+  "experiments": {
+    "title": "Master List of Experiments",
+    "subtitle": "Delivered via BCI Journey's BCI Lab module — connect your Unicorn Hybrid Black headset and run these paradigms in-browser.",
+    "passive": "Passive BCI",
+    "reactive": "Reactive BCI",
+    "active": "Active BCI",
+    "passiveItems": [
+      "The Magic Mirror (Artifact Detection)",
+      "Focus Power Dash (Beta Waves)",
+      "The Calm Down Room (Neurofeedback)",
+      "Adaptive Math Quiz (Cognitive Load)"
+    ],
+    "reactiveItems": [
+      "The Sorting Hat (Classifiers)",
+      "Mind Painter (SSVEP)",
+      "The Mind Keyboard (P300)",
+      "API Bridging (Python to Robot)"
+    ],
+    "activeItems": [
+      "Digital Block Push (Calibration)",
+      "Drive the Bug (Single-class MI)",
+      "VEX Obstacle Course (Two-class MI)",
+      "Robotic Manipulation (Multi-class MI)"
+    ]
+  },
+  "aria": {
+    "unmute": "Unmute",
+    "mute": "Mute",
+    "video": "Father and son using BCI"
+  },
+  "videoFallback": "Your browser does not support the video tag."
+}

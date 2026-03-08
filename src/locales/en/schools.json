@@ -1,0 +1,39 @@
+{
+  "title": "Elevate STEM Prestige",
+  "subtitle": "A Turnkey Pathway to Elite University Portfolios via the Global br41n.io Hackathon.",
+  "valueProps": {
+    "ivy": {
+      "title": "Ivy League Admissions",
+      "desc": "Admissions officers are flooded with standard \"robotics club\" applications. A portfolio showcasing applied neuroscience and global hackathon participation instantly elevates a student."
+    },
+    "prestige": {
+      "title": "Institutional Prestige",
+      "desc": "Becoming an official hub for neurotechnology positions your school as the undisputed regional leader in futuristic education."
+    },
+    "interdisciplinary": {
+      "title": "Interdisciplinary Excellence",
+      "desc": "BCI inherently breaks down academic silos, seamlessly blending Computer Science, Biology, Neuroscience, Data Math, and Ethics."
+    }
+  },
+  "solution": {
+    "title": "Why Schools Cannot Do This Alone",
+    "intro": "Entering a global BCI hackathon is incredibly complex. It requires expensive research-grade hardware, highly specialized instructors, and complex algorithmic architecture.",
+    "neurotxTitle": "The NeuroTX Solution:",
+    "mentorship": {
+      "title": "Insider Mentorship:",
+      "desc": "Led by David Wiehls, Official China Host Partner and Global Jury Member for the br41n.io Hackathon."
+    },
+    "hardware": {
+      "title": "Hardware Provided:",
+      "desc": "We supply the research-grade Unicorn Hybrid Black headsets. Zero procurement risk."
+    },
+    "staff": {
+      "title": "Zero Staff Burden:",
+      "desc": "We manage the pedagogical heavy lifting through our specialized teachers or PD certification."
+    }
+  },
+  "cta": {
+    "title": "Ready to establish your pipeline?",
+    "button": "Schedule a Consultation"
+  }
+}

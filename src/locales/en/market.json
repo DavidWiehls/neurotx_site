@@ -1,0 +1,57 @@
+{
+  "title": "Market Assessment",
+  "subtitle": "Quantifying the Ideal Customer Profile for BCI Education Integration Across China's Urban Centers.",
+  "stats": {
+    "tam": {
+      "label": "Total Addressable Market",
+      "value": "~1,950",
+      "sublabel": "Qualified Schools"
+    },
+    "cities": {
+      "label": "Target Cities",
+      "value": "49",
+      "sublabel": "Tier 1, New Tier 1, Tier 2"
+    },
+    "stem": {
+      "label": "Global STEM Market",
+      "value": "$131B",
+      "sublabel": "By 2030 (Projected)"
+    },
+    "abroad": {
+      "label": "Students Studying Abroad",
+      "value": "900k+",
+      "sublabel": "From China"
+    }
+  },
+  "segments": {
+    "1": {
+      "title": "Segment I: Premium International & Private Bilingual Schools",
+      "desc": "The core Tier 2 market. Schools with high autonomy and wealthy parent bodies seeking elite university portfolios.",
+      "icp": "Est. ICP: 600-750 Schools",
+      "model": "Primary Model: Tier 2 (ASA)"
+    },
+    "2": {
+      "title": "Segment II: Elite Public High Schools & Foreign Language Academies",
+      "desc": "The \"Hybrid\" market. Institutions needing \"hard tech\" portfolios to balance linguistic excellence and compete globally.",
+      "icp": "Est. ICP: 250-300 Schools",
+      "model": "Primary Model: Tier 2 & 3"
+    },
+    "3": {
+      "title": "Segment III: MOE AI Bases & Provincial Model High Schools",
+      "desc": "The Tier 3 SaaS market. China's Ministry of Education has designated 184 official AI education bases with guaranteed access to capital and modernization grants. Direct alignment with national AI integration goals by 2030.",
+      "icp": "Est. ICP: 400-500 Schools",
+      "model": "Primary Model: Tier 3 (Neural Campus)"
+    },
+    "4": {
+      "title": "Segment IV: Special Education Hubs",
+      "desc": "Inclusive Neural Rehabilitation. Using Passive BCI for neurofeedback and adaptive learning in state-subsidized pilot zones.",
+      "icp": "Est. ICP: 300-400 Schools",
+      "model": "Primary Model: Tier 3 (Neural Campus)"
+    }
+  },
+  "highlights": {
+    "title": "Investment Highlights",
+    "desc": "Triple-stream revenue, hybrid logistics model, and ~1,550–1,950 qualified schools. Explore unit economics and scaling strategy.",
+    "cta": "View For Investors"
+  }
+}

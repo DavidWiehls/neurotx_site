@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "product": "Produkt",
+    "pricing": "Preise",
+    "caseStudies": "Fallstudien",
+    "market": "Markt",
+    "investors": "Investoren",
+    "partners": "Partner",
+    "schools": "Für Schulen",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "tagline": "Neurale Integration verständlich machen. BCI von Science-Fiction zu einer grundlegenden Lebenskompetenz für die nächste Generation.",
+    "platform": "Plattform",
+    "curriculum": "Lehrplan",
+    "hardware": "Hardware",
+    "pricing": "Preise",
+    "forSchools": "Für Schulen",
+    "resources": "Ressourcen",
+    "caseStudies": "Fallstudien",
+    "marketData": "Marktdaten",
+    "investors": "Investoren",
+    "missionEthics": "Mission & Ethik",
+    "partners": "Partner",
+    "connect": "Kontakt",
+    "contactUs": "Kontakt aufnehmen",
+    "copyright": "NeuroTX Education. Alle Rechte vorbehalten.",
+    "dataEthics": "Datenethik",
+    "privacyPolicy": "Datenschutz (Demnächst)",
+    "termsOfService": "Nutzungsbedingungen (Demnächst)"
+  },
+  "brand": "NeuroTX"
+}

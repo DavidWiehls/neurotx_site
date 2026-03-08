@@ -1,0 +1,39 @@
+{
+  "title": "STEM-Prestige steigern",
+  "subtitle": "Ein Turnkey-Weg zu Elite-Universitätsportfolios über den globalen br41n.io Hackathon.",
+  "valueProps": {
+    "ivy": {
+      "title": "Ivy-League-Zulassung",
+      "desc": "Zulassungsbeauftragte werden mit Standard-„Robotics-Club\"-Bewerbungen überflutet. Ein Portfolio mit angewandter Neurowissenschaft und globaler Hackathon-Teilnahme hebt einen Studierenden sofort hervor."
+    },
+    "prestige": {
+      "title": "Institutioneller Prestige",
+      "desc": "Als offizieller Neurotechnologie-Hub positioniert sich Ihre Schule als unbestrittener regionaler Führer in zukunftsorientierter Bildung."
+    },
+    "interdisciplinary": {
+      "title": "Interdisziplinäre Exzellenz",
+      "desc": "BCI durchbricht von Natur aus akademische Silos und verbindet nahtlos Informatik, Biologie, Neurowissenschaft, Datenmathematik und Ethik."
+    }
+  },
+  "solution": {
+    "title": "Warum Schulen das nicht allein schaffen",
+    "intro": "Die Teilnahme an einem globalen BCI-Hackathon ist extrem komplex. Es erfordert teure Forschungs-Hardware, hochspezialisierte Dozenten und komplexe algorithmische Architektur.",
+    "neurotxTitle": "Die NeuroTX-Lösung:",
+    "mentorship": {
+      "title": "Insider-Mentoring:",
+      "desc": "Geleitet von David Wiehls, offizieller China-Host-Partner und globales Jurymitglied des br41n.io Hackathons."
+    },
+    "hardware": {
+      "title": "Hardware bereitgestellt:",
+      "desc": "Wir liefern die Forschungs-Unicorn-Hybrid-Black-Headsets. Kein Beschaffungsrisiko."
+    },
+    "staff": {
+      "title": "Keine Personalbelastung:",
+      "desc": "Wir übernehmen die pädagogische Hauptarbeit durch unsere Speziallehrer oder FB-Zertifizierung."
+    }
+  },
+  "cta": {
+    "title": "Bereit, Ihre Pipeline einzurichten?",
+    "button": "Beratung vereinbaren"
+  }
+}

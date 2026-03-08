@@ -1,0 +1,105 @@
+{
+  "title": "神经架构师",
+  "subtitle": "我们不仅教授编程，更教授系统设计。从积木逻辑到 AI 辅助的 Python 架构。",
+  "curriculum": {
+    "title": "16 周课程",
+    "phases": [
+      {
+        "phase": "第一阶段",
+        "title": "基础与伦理",
+        "weeks": "第 1–4 周",
+        "desc": "建立神经素养、数据隐私与信号逻辑。从积木过渡到 AI 提示词。"
+      },
+      {
+        "phase": "第二阶段",
+        "title": "被动式脑机接口",
+        "weeks": "第 5–8 周",
+        "desc": "理解「输入」端。认知状态检测、专注度指标与神经反馈。"
+      },
+      {
+        "phase": "第三阶段",
+        "title": "反应式脑机接口",
+        "weeks": "第 9–12 周",
+        "desc": "诱发电位（P300/SSVEP）。利用大脑自动反应触发数字操作。"
+      },
+      {
+        "phase": "第四阶段",
+        "title": "主动式脑机接口与结业项目",
+        "weeks": "第 13–16 周",
+        "desc": "运动想象（MI）。通过意念控制物理机器人（VEX/乐高）。"
+      }
+    ]
+  },
+  "techStack": {
+    "title": "技术栈",
+    "bciJourney": {
+      "title": "BCI Journey",
+      "desc": "我们的互动学习平台：3D 神经解剖、AI 导师（Synapse & Spark）、Somas 与排行榜，以及 BCI 实验室 — 通过蓝牙连接 Unicorn Hybrid Black，在浏览器中运行 12 项真实实验（P300、运动想象、SSVEP 等），8 通道脑电图全覆盖。配备「准备门槛」确保学生在接触硬件前掌握理论。",
+      "cta": "试用 BCI Journey"
+    },
+    "hardware": {
+      "title": "硬件：Unicorn Hybrid Black",
+      "desc": "研究级 8 通道脑电图头戴设备。大学黑客马拉松的行业标准，由合作伙伴 g.tec 提供。"
+    },
+    "aiCoding": {
+      "title": "AI 辅助编程",
+      "desc": "我们培养学生成为系统架构师。使用自然语言提示生成 FFT 与分类器的 Python 流水线。"
+    }
+  },
+  "aiAssistants": {
+    "title": "24/7 AI 助手",
+    "desc": "BCI Journey 学习平台配备全天候 AI 导师，支持您的学习过程。在概念、编程与神经技术方面随时获得即时帮助。"
+  },
+  "hardwareAction": {
+    "title": "硬件实践",
+    "desc": "了解我们课程中的硬件部分 — 研究级脑电图头戴设备、动手脑机接口实验，以及学生在真实课堂环境中连接大脑与机器的实践。"
+  },
+  "demos": {
+    "title": "平台演示",
+    "items": [
+      {
+        "title": "平台概览",
+        "desc": "探索 3D 神经解剖、互动模拟与完整学习体验。"
+      },
+      {
+        "title": "BCI 实验室：真实实验",
+        "desc": "连接 Unicorn Hybrid Black 头戴设备，在浏览器中运行实时脑电图实验。"
+      },
+      {
+        "title": "AI 导师：Synapse 与 Spark",
+        "desc": "与 24/7 在线的 AI 导师进行语音对话，获得个性化支持。"
+      }
+    ]
+  },
+  "experiments": {
+    "title": "实验总览",
+    "subtitle": "通过 BCI Journey 的 BCI 实验室模块交付 — 连接 Unicorn Hybrid Black 头戴设备，在浏览器中运行这些范式。",
+    "passive": "被动式脑机接口",
+    "reactive": "反应式脑机接口",
+    "active": "主动式脑机接口",
+    "passiveItems": [
+      "魔镜（伪迹检测）",
+      "专注力仪表板（Beta 波）",
+      "静心室（神经反馈）",
+      "自适应数学测验（认知负荷）"
+    ],
+    "reactiveItems": [
+      "分院帽（分类器）",
+      "思维画家（SSVEP）",
+      "思维键盘（P300）",
+      "API 桥接（Python 到机器人）"
+    ],
+    "activeItems": [
+      "数字方块推（校准）",
+      "驾驶小虫（单类 MI）",
+      "VEX 障碍赛（二类 MI）",
+      "机器人操控（多类 MI）"
+    ]
+  },
+  "aria": {
+    "unmute": "取消静音",
+    "mute": "静音",
+    "video": "父子使用脑机接口"
+  },
+  "videoFallback": "您的浏览器不支持视频标签。"
+}

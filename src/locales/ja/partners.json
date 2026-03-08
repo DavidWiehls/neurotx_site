@@ -1,0 +1,59 @@
+{
+  "title": "信頼ネットワーク",
+  "subtitle": "当社の運営成功は、トップクラスの大学、政府イノベーションハブ、エリート校による強固なネットワークに支えられています。",
+  "opportunities": {
+    "title": "パートナーシップ機会",
+    "hardware": {
+      "title": "ハードウェアパートナー",
+      "desc": "g.tecおよびその他研究用BCIハードウェアプロバイダーと提携。Unicorn Hybrid Black 8チャンネルEEGが業界標準。",
+      "cta": "ハードウェア統合を検討"
+    },
+    "steam": {
+      "title": "STEAM & ロボティクス（プラグイン戦略）",
+      "desc": "BCIカリキュラムはVEX Robotics、LEGO、ROSと統合。学校が既に保有するハードウェアに接続するカリキュラムを設計。",
+      "cta": "STEAMパートナーになる"
+    },
+    "institutional": {
+      "title": "機関パートナー",
+      "desc": "大学、政府イノベーションハブ、科学普及委員会。無料BCI講演・ハッカソンを開催。",
+      "cta": "パートナーになる"
+    },
+    "hosting": {
+      "title": "ホスト校",
+      "desc": "br41n.io公式ホスト機関。地域・全国ハッカソンを主催し、学校を神経技術ハブとして位置づけ。",
+      "cta": "ホスト機関になる"
+    }
+  },
+  "network": {
+    "title": "当社のネットワーク",
+    "educational": "教育先鋒（パイロット・パートナー校）",
+    "strategic": "戦略・機関パートナー",
+    "badges": {
+      "hosting": "br41n.io公式ホスト機関",
+      "hardware": "ハードウェアパートナー · Unicorn Hybrid Black EEG"
+    }
+  },
+  "schools": [
+    { "name": "Hangzhou Chongwen Century City Experimental School", "badge": "br41n.io公式ホスト機関" },
+    "Hangzhou Xuejun Wenyuan Experimental School",
+    "Hangzhou Wahaha Bilingual School",
+    "Hangzhou Entel Foreign Language School",
+    "Hangzhou No.2 High School Qianjiang",
+    "Zhejiang Wenling High School",
+    "Overseas Chinese Academy of Concord Suzhou (OCAC)",
+    "Britannia International School in Guangzhou (BIS)",
+    "Canadian International School of Guangzhou (CIS)",
+    "Foshan No.1 High School",
+    "EtonHouse International Education Group",
+    "Canada Kent School"
+  ],
+  "strategicPartners": [
+    { "name": "g.tec medical engineering", "badge": "ハードウェアパートナー · Unicorn Hybrid Black EEG" },
+    "Zhejiang University Science Park",
+    "Zhejiang University of Science and Technology (ZUST)",
+    "Qizhen Brain-Computer Intelligence Industrialization Base",
+    "Zhejiang Science Popularization Federation (Sci2U)",
+    "China-Germany Foshan Industry Park",
+    "Suzhou Innovation Center of Shanghai University"
+  ]
+}

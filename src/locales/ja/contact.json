@@ -1,0 +1,45 @@
+{
+  "title": "お問い合わせ",
+  "subtitle": "神経技術の未来を学校にもたらす準備はできていますか？",
+  "info": {
+    "title": "連絡先",
+    "email": {
+      "title": "メール",
+      "value": "davidwiehls@neurotx.education",
+      "desc": "パートナーシップおよび相談用。"
+    },
+    "hq": {
+      "title": "本社",
+      "value": "中国・杭州",
+      "desc": "長江デルタ・大湾エリアで展開。"
+    },
+    "scan": "スキャンして接続",
+    "wechat": "WeChat",
+    "whatsapp": "WhatsApp"
+  },
+  "schoolsBox": {
+    "title": "学校・パートナー向け",
+    "desc": "BCIハッカソンパイプラインを拡大中です。STEMディレクターまたは校長でパートナーシップにご興味がある方は、直接お問い合わせの上デモをご予約ください。"
+  },
+  "form": {
+    "title": "メッセージを送信",
+    "name": "お名前",
+    "namePlaceholder": "山田 太郎",
+    "email": "メール",
+    "emailPlaceholder": "yamada@school.edu",
+    "school": "学校 / 組織",
+    "schoolPlaceholder": "○○国際学校...",
+    "interest": "ご興味のある内容...",
+    "interests": [
+      "ティア1：ワークショップ",
+      "ティア2：課外活動",
+      "ティア3：全校統合",
+      "投資家向けお問い合わせ",
+      "パートナーシップ / 協力",
+      "一般お問い合わせ"
+    ],
+    "message": "メッセージ",
+    "messagePlaceholder": "学校のニーズをお聞かせください...",
+    "submit": "送信"
+  }
+}

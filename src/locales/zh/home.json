@@ -1,0 +1,87 @@
+{
+  "hero": {
+    "badge": "K-12教育的未来",
+    "title": "揭开",
+    "titleHighlight": "神经集成的神秘面纱",
+    "subtitle": "我们将脑机接口（BCI）从科幻变为基础生活技能。赋能下一代神经架构师。",
+    "ctaSchools": "学校合作",
+    "ctaCurriculum": "探索课程",
+    "ctaInvestors": "投资者",
+    "ctaPartners": "与我们合作"
+  },
+  "caseStudies": {
+    "label": "成功案例",
+    "title": "真实影响力遍布学校",
+    "subtitle": "从精英国际部到顶尖公立高中——了解NeuroTX如何变革STEM教育，将学生与全球研究网络连接。",
+    "wechatPost": "微信文章",
+    "readFull": "阅读完整案例",
+    "items": {
+      "hangzhouNo2": {
+        "school": "杭州第二中学钱江",
+        "outcome": "通往欧洲实验室的全球神经科学之路",
+        "type": "精英国际"
+      },
+      "wenling": {
+        "school": "浙江省温岭中学",
+        "outcome": "公立学校学生登上全球BCI舞台",
+        "type": "顶尖公立"
+      },
+      "entel": {
+        "school": "杭州英特外国语学校",
+        "outcome": "50+名学生通往德国TU9大学",
+        "type": "外语学校"
+      },
+      "ocac": {
+        "school": "苏州OCAC",
+        "outcome": "在初中年级扩展BCI",
+        "type": "初中ASA"
+      }
+    }
+  },
+  "mission": {
+    "cognitiveEvolution": {
+      "title": "认知进化",
+      "desc": "通过50/50输入/输出理念，让学生通过非传统的直接神经通路获得技能。"
+    },
+    "schoolGuardian": {
+      "title": "学校即守护者",
+      "desc": "绝不妥协的隐私保护。神经数据是最私密的个人财产。我们严格B2B运营以保护学生。"
+    },
+    "globalPathway": {
+      "title": "全球通道",
+      "desc": "直达顶尖大学和br41n.io黑客松。从本地课堂到欧洲研究实验室。"
+    }
+  },
+  "bciJourney": {
+    "label": "我们的学习平台",
+    "title": "BCI Journey",
+    "subtitle": "通过3D可视化、AI导师和真实硬件实验，在浏览器中将脑机接口变为现实。",
+    "features": [
+      "3D神经解剖与沉浸式模拟——无需VR头显",
+      "AI导师（Synapse & Spark）提供24/7语音支持",
+      "Somas与全球排行榜——赚取奖励并竞赛",
+      "BCI实验室：连接Unicorn Hybrid Black，在浏览器中运行12项真实实验"
+    ],
+    "tryBci": "试用BCI Journey",
+    "exploreCurriculum": "探索课程",
+    "videoFallback": "您的浏览器不支持视频标签。"
+  },
+  "trust": {
+    "label": "教育先锋信赖之选"
+  },
+  "cyborg": {
+    "title": "\"半机械人\"基石",
+    "subtitle": "我们将神经技术视为人类精神最终的、无缝延伸，而不仅是外部工具。",
+    "items": [
+      "揭开神经集成的神秘面纱",
+      "将BCI从科幻变为现实",
+      "培养能动性与伦理",
+      "开源架构"
+    ],
+    "readManifesto": "阅读我们的宣言"
+  },
+  "partners": {
+    "label": "战略与机构合作伙伴",
+    "subtitle": "由顶尖大学、政府创新中心和科学普及委员会支持"
+  }
+}

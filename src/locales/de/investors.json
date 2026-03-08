@@ -1,0 +1,68 @@
+{
+  "title": "Investment-Highlights",
+  "subtitle": "NeuroTX baut die Brücke zwischen universitärer Neurotechnologie und K-12-Bildung. Skalierbare Unit Economics, klares TAM und ein hybrides Logistikmodell zur Margenerhaltung.",
+  "stats": {
+    "tam": {
+      "label": "Gesamter addressierbarer Markt",
+      "value": "1,550–1,950",
+      "sublabel": "Qualifizierte Schulen (49 Städte)"
+    },
+    "tier3": {
+      "label": "Tier-3-Beispielvertrag",
+      "value": "¥137,000",
+      "sublabel": "Pro Jahr (100 Studierende)"
+    },
+    "stem": {
+      "label": "Globaler STEM-Markt",
+      "value": "$131B",
+      "sublabel": "Bis 2030 (13,7% CAGR)"
+    },
+    "abroad": {
+      "label": "Auslandsstudierende",
+      "value": "900k+",
+      "sublabel": "Aus China"
+    }
+  },
+  "revenue": {
+    "title": "Dreiströmiges Umsatzmodell",
+    "stem": {
+      "title": "STEM-Abteilungsbudgets",
+      "desc": "Lehrplan integriert sich in bestehende KI-, Robotik- und Programmierkurse. Natürliche Passung für jährliche institutionelle Budgets."
+    },
+    "grants": {
+      "title": "Provinz- & Staatszuschüsse",
+      "desc": "Subventioniert durch lokale Regierungen, abgestimmt auf 184 MOE-KI-Bildungsstätten und Sonderpädagogikreform."
+    },
+    "private": {
+      "title": "Private Studiengebühren & B2C",
+      "desc": "Eltern und Privatschulen finanzieren ASA-Programme. Premiumpositionierung für Elite-Universitätsportfolios."
+    }
+  },
+  "unitEconomics": {
+    "title": "Unit Economics",
+    "tier2": {
+      "title": "Tier 2: Turnkey ASA",
+      "desc": "¥49.000 pro 16-Wochen-Kohorte (max. 25 Studierende). Hohe Marge bei kontrollierter Arbeitskraft. Schulen berechnen Eltern ~¥3.000/Studierende für ASA; Win-Win-Ökonomie.",
+      "tag": "Hauptumsatzträger · br41n.io Hackathon-Pipeline"
+    },
+    "tier3": {
+      "title": "Tier 3: Neural Campus (SaaS-Skalierung)",
+      "desc": "Basis: ¥55.000 · FB: ¥12.000 · Platz: ¥700/Studierende. Beispiel: 100 Studierende = ¥137.000/Jahr. Reine Software- und IP-Marge — Schullehrer unterrichten nach Zertifizierung.",
+      "tag": "Premium-Tier · Übernahme-/VC-Ziel"
+    }
+  },
+  "logistics": {
+    "title": "Hybrides Logistikmodell",
+    "desc": "Das proprietäre Web-LMS liefert theoretischen Lehrplan im Maßstab. Spezialisierte Reisendehrer werden nur eingesetzt, wenn Studentenkohorten das „Readiness Gate\" bestehen. Erhält Margen bei nationaler Skalierung über 49 Städte.",
+    "items": [
+      "LMS übernimmt tägliche Lehrplanauslieferung",
+      "Readiness Gate stellt Hardware-Einsatz nur bei Bereitschaft sicher",
+      "Reisende Experten für Kalibrierung und Capstone-Labs"
+    ]
+  },
+  "government": {
+    "title": "Staat & Innovation",
+    "desc": "Chinas Bildungsministerium hat 184 offizielle KI-Bildungsstätten ausgewiesen. Diese Schulen erhalten spezialisierte Zuschüsse für Innovation, STEM-Modernisierung und Hardware-Beschaffung. NeuroTXs Lehrplan steht im Einklang mit dem MOE-Mandat für fortgeschrittene digitale Kompetenz und KI-Integration bis 2030."
+  },
+  "cta": "Gespräch vereinbaren"
+}
