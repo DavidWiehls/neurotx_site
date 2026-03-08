@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import { Brain, Github, Twitter, Linkedin, MessageCircle } from 'lucide-react';
+import { Github, Twitter, Linkedin, MessageCircle } from 'lucide-react';
+import { assets } from '../lib/assets';
 
 const Footer = () => {
   return (
@@ -8,9 +9,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="col-span-1 md:col-span-1">
             <Link to="/" className="flex items-center space-x-2 mb-4">
-              <div className="bg-indigo-600 p-1.5 rounded-lg">
-                <Brain className="h-6 w-6 text-white" />
-              </div>
+              <img
+                src={assets.brand.logo}
+                alt="NeuroTX"
+                className="h-8 w-auto"
+              />
               <span className="text-white font-bold text-xl tracking-tight">NeuroTX</span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">

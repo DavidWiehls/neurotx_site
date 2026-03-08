@@ -37,6 +37,7 @@ export const assets = {
     casestudy_ocac: '/assets/partners/casestudy_ocac.jpg',
   },
   brand: {
+    logo: '/assets/brand/Logoneurotx.png',
     wechatQr: '/assets/brand/wechat-qr.jpg',
     whatsappQr: '/assets/brand/whtasapp-qr.jpg',
   },
