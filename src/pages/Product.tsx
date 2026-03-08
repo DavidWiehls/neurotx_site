@@ -118,12 +118,15 @@ const Product = () => {
               </div>
             </div>
           </div>
-          <div className="bg-zinc-900 rounded-2xl border border-white/10 p-2">
-             <img 
-                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2000&auto=format&fit=crop" 
-                alt="Students working on BCI" 
-                className="rounded-xl w-full h-full object-cover opacity-80"
-                referrerPolicy="no-referrer"
+          <div className="bg-zinc-900 rounded-2xl border border-white/10 p-2 overflow-hidden">
+             <video
+                src={new URL('../../assets/fathersonbci.mp4', import.meta.url).href}
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="rounded-xl w-full h-full object-cover"
+                aria-label="Father and son using BCI"
              />
           </div>
         </div>
