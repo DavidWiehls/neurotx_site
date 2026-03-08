@@ -1,7 +1,11 @@
+import { useState } from 'react';
 import { motion } from 'motion/react';
-import { Layers, Monitor, Cpu, Code, Shield, Eye, ExternalLink } from 'lucide-react';
+import { Layers, Monitor, Cpu, Code, Shield, Eye, ExternalLink, Volume2, VolumeX } from 'lucide-react';
 
 const Product = () => {
+  const [aiMentorsMuted, setAiMentorsMuted] = useState(true);
+
+  const toggleAiMentorsMute = () => setAiMentorsMuted(prev => !prev);
   return (
     <div className="bg-black text-white pt-24 pb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -124,6 +128,56 @@ const Product = () => {
           </div>
         </div>
 
+        {/* Learning Platform & Hardware */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-24">
+          <motion.div
+            initial={{ opacity: 0.6, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="bg-zinc-900/50 border border-white/10 rounded-2xl overflow-hidden"
+          >
+            <div className="aspect-video bg-black">
+              <video
+                src={new URL('../../assets/bcijourneydemos/talkmode.mp4', import.meta.url).href}
+                controls
+                playsInline
+                className="w-full h-full object-contain"
+              >
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div className="p-6">
+              <h3 className="text-xl font-bold mb-2">AI Assistants 24/7</h3>
+              <p className="text-gray-400">
+                The BCI Journey learning platform features AI tutors available around the clock to support your learning process. Get instant help with concepts, coding, and neurotechnology — whenever you need it.
+              </p>
+            </div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0.6, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="bg-zinc-900/50 border border-white/10 rounded-2xl overflow-hidden"
+          >
+            <div className="aspect-video bg-black">
+              <video
+                src={new URL('../../assets/introvideo.mp4', import.meta.url).href}
+                controls
+                playsInline
+                className="w-full h-full object-contain"
+              >
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div className="p-6">
+              <h3 className="text-xl font-bold mb-2">Hardware in Action</h3>
+              <p className="text-gray-400">
+                See the hardware component of our curriculum — research-grade EEG headsets, hands-on BCI experiments, and students bridging the gap between brain and machine in real classroom settings.
+              </p>
+            </div>
+          </motion.div>
+        </div>
+
         {/* Platform Demos */}
         <div className="mb-24">
           <h2 className="text-3xl font-bold mb-10 border-l-4 border-indigo-500 pl-4">Platform Demos</h2>
@@ -131,22 +185,34 @@ const Product = () => {
             {[
               { title: 'Platform Overview', src: 'bcijourneymain.mp4', desc: 'Explore 3D neuroanatomy, interactive simulations, and the full learning experience.' },
               { title: 'BCI Lab: Real Experiments', src: 'bcijourneylab.mp4', desc: 'Connect the Unicorn Hybrid Black headset and run live EEG experiments in-browser.' },
-              { title: 'AI Mentors: Synapse & Spark', src: 'bcijourneylisten.mp4', desc: 'Voice conversations with AI tutors available 24/7 for personalized support.' },
-            ].map((demo, i) => (
+              { title: 'AI Mentors: Synapse & Spark', src: 'bcijourneylisten.mp4', desc: 'Voice conversations with AI tutors available 24/7 for personalized support.', hasMuteButton: true },
+            ].map((demo) => (
               <motion.div
                 key={demo.src}
                 whileHover={{ y: -4 }}
                 className="bg-zinc-900/50 border border-white/10 rounded-xl overflow-hidden"
               >
-                <div className="aspect-video bg-black">
+                <div className="aspect-video bg-black relative">
                   <video
                     src={new URL(`../../assets/bcijourneydemos/${demo.src}`, import.meta.url).href}
-                    controls
+                    autoPlay
+                    loop
                     playsInline
+                    muted={demo.hasMuteButton ? aiMentorsMuted : undefined}
                     className="w-full h-full object-contain"
                   >
                     Your browser does not support the video tag.
                   </video>
+                  {demo.hasMuteButton && (
+                    <button
+                      type="button"
+                      onClick={toggleAiMentorsMute}
+                      className="absolute top-3 right-3 p-2 rounded-lg bg-black/60 hover:bg-black/80 text-white transition-colors"
+                      aria-label={aiMentorsMuted ? 'Unmute' : 'Mute'}
+                    >
+                      {aiMentorsMuted ? <VolumeX className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}
+                    </button>
+                  )}
                 </div>
                 <div className="p-4">
                   <h3 className="font-bold mb-2">{demo.title}</h3>

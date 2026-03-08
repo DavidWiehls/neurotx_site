@@ -40,6 +40,28 @@ const Contact = () => {
                   <p className="text-gray-500 text-sm mt-2">Operating across the Yangtze River Delta and Greater Bay Area.</p>
                 </div>
               </div>
+
+              <div>
+                <h3 className="font-semibold text-white mb-4">Scan to connect</h3>
+                <div className="flex flex-wrap gap-8">
+                  <div className="flex flex-col items-center gap-2">
+                    <img
+                      src={new URL('../../assets/brand/wechat-qr.jpg', import.meta.url).href}
+                      alt="WeChat QR code"
+                      className="w-32 h-32 rounded-lg border border-white/10 object-contain bg-white"
+                    />
+                    <span className="text-sm text-gray-400">WeChat</span>
+                  </div>
+                  <div className="flex flex-col items-center gap-2">
+                    <img
+                      src={new URL('../../assets/brand/whtasapp-qr.jpg', import.meta.url).href}
+                      alt="WhatsApp QR code"
+                      className="w-32 h-32 rounded-lg border border-white/10 object-contain bg-white"
+                    />
+                    <span className="text-sm text-gray-400">WhatsApp</span>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div className="mt-12 p-8 bg-zinc-900/30 border border-white/10 rounded-2xl">

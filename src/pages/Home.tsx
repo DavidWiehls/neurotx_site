@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { ArrowRight, Brain, Cpu, ExternalLink, Globe, ShieldCheck } from 'lucide-react';
+import { ArrowRight, BookOpen, Brain, Cpu, ExternalLink, Globe, ShieldCheck } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -55,6 +55,60 @@ const Home = () => {
               </Link>
             </div>
           </motion.div>
+        </div>
+      </section>
+
+      {/* Case Studies */}
+      <section className="py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <p className="text-sm font-mono text-indigo-400 uppercase tracking-widest mb-4">Success Stories</p>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Real Impact Across Schools</h2>
+            <p className="text-gray-400 text-lg">
+              From elite international divisions to top-tier public high schools — see how NeuroTX is transforming STEM education and connecting students to global research networks.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+            {[
+              { school: 'Hangzhou No.2 High School Qianjiang', outcome: 'Global neuroscience pathway to European labs', type: 'Elite International', wechatUrl: 'https://mp.weixin.qq.com/s/hE2bai_ASl91InvxFqyvlw' },
+              { school: 'Zhejiang Wenling High School', outcome: 'Public school students onto the global BCI stage', type: 'Top-Tier Public', wechatUrl: 'https://mp.weixin.qq.com/s/H2aGYxX1h-dyorgjyC7AmQ' },
+              { school: 'Hangzhou Entel Foreign Language School', outcome: '50+ students to Germany\'s TU9 universities', type: 'Foreign Language', wechatUrl: null },
+              { school: 'OCAC Suzhou', outcome: 'Scaling BCI across middle school cohorts', type: 'Middle School ASA', wechatUrl: null },
+            ].map((study) => (
+              <motion.div
+                key={study.school}
+                initial={{ opacity: 0.6, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                whileHover={{ y: -4 }}
+                className="p-6 rounded-xl bg-zinc-900/50 border border-white/5 hover:border-indigo-500/20 transition-all duration-300"
+              >
+                <span className="text-xs font-mono text-indigo-400">{study.type}</span>
+                <h3 className="font-bold mt-2 mb-1">{study.school}</h3>
+                <p className="text-gray-400 text-sm mb-3">{study.outcome}</p>
+                {study.wechatUrl && (
+                  <a
+                    href={study.wechatUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#07C160]/20 hover:bg-[#07C160]/30 text-[#07C160] border border-[#07C160]/30 text-xs font-medium transition-colors"
+                  >
+                    <ExternalLink className="h-4 w-4" />
+                    WeChat Post
+                  </a>
+                )}
+              </motion.div>
+            ))}
+          </div>
+          <div className="text-center">
+            <Link
+              to="/case-studies"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-semibold transition-all"
+            >
+              <BookOpen className="h-5 w-5" />
+              Read Full Case Studies
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -148,7 +202,9 @@ const Home = () => {
               <div className="relative bg-zinc-900 border border-white/10 rounded-2xl p-2 overflow-hidden">
                 <video
                   src={new URL('../../assets/bcijourneydemos/bcijourneymain.mp4', import.meta.url).href}
-                  controls
+                  autoPlay
+                  muted
+                  loop
                   playsInline
                   className="rounded-xl w-full h-auto"
                 >
