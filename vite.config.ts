@@ -4,7 +4,7 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => ({
-  base: '/neurotx_site/',
+  base: '/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
