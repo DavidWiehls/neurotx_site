@@ -1,87 +1,87 @@
 {
   "hero": {
-    "badge": "The Future of K-12 Education",
-    "title": "Demystifying",
-    "titleHighlight": "Neural Integration",
-    "subtitle": "We transition Brain-Computer Interfaces (BCI) from science fiction to a foundational life skill. Empowering the next generation of Neural Architects.",
-    "ctaSchools": "For Schools",
-    "ctaCurriculum": "Explore Curriculum",
-    "ctaInvestors": "For Investors",
-    "ctaPartners": "Partner With Us"
+    "badge": "Die Zukunft der K-12-Bildung",
+    "title": "Verständlich machen",
+    "titleHighlight": "Neurale Integration",
+    "subtitle": "Wir verwandeln Brain-Computer-Interfaces (BCI) von Science-Fiction in eine grundlegende Lebenskompetenz. Wir befähigen die nächste Generation von Neural Architects.",
+    "ctaSchools": "Für Schulen",
+    "ctaCurriculum": "Lehrplan erkunden",
+    "ctaInvestors": "Für Investoren",
+    "ctaPartners": "Partner werden"
   },
   "caseStudies": {
-    "label": "Success Stories",
-    "title": "Real Impact Across Schools",
-    "subtitle": "From elite international divisions to top-tier public high schools — see how NeuroTX is transforming STEM education and connecting students to global research networks.",
-    "wechatPost": "WeChat Post",
-    "readFull": "Read Full Case Studies",
+    "label": "Erfolgsgeschichten",
+    "title": "Reale Wirkung an Schulen",
+    "subtitle": "Von elitären internationalen Abteilungen bis zu erstklassigen öffentlichen Gymnasien — sehen Sie, wie NeuroTX die MINT-Bildung transformiert und Schüler mit globalen Forschungsnetzwerken verbindet.",
+    "wechatPost": "WeChat-Beitrag",
+    "readFull": "Vollständige Fallstudien lesen",
     "items": {
       "hangzhouNo2": {
         "school": "Hangzhou No.2 High School Qianjiang",
-        "outcome": "Global neuroscience pathway to European labs",
+        "outcome": "Weg zu europäischen Laboren für globale Neurowissenschaft",
         "type": "Elite International"
       },
       "wenling": {
         "school": "Zhejiang Wenling High School",
-        "outcome": "Public school students onto the global BCI stage",
-        "type": "Top-Tier Public"
+        "outcome": "Öffentliche Schulen auf die globale BCI-Bühne",
+        "type": "Erstklassig Öffentlich"
       },
       "entel": {
         "school": "Hangzhou Entel Foreign Language School",
-        "outcome": "50+ students to Germany's TU9 universities",
-        "type": "Foreign Language"
+        "outcome": "50+ Schüler an Deutschlands TU9-Universitäten",
+        "type": "Fremdsprachenschule"
       },
       "ocac": {
         "school": "OCAC Suzhou",
-        "outcome": "Scaling BCI across middle school cohorts",
-        "type": "Middle School ASA"
+        "outcome": "BCI-Skalierung über Mittelschul-Kohorten",
+        "type": "Mittelschul-ASA"
       }
     }
   },
   "mission": {
     "cognitiveEvolution": {
-      "title": "Cognitive Evolution",
-      "desc": "Enabling students to acquire skills through non-traditional, direct neural pathways via 50/50 Input/Output philosophy."
+      "title": "Kognitive Evolution",
+      "desc": "Schüler erwerben Fähigkeiten über nicht-traditionelle, direkte neuronale Wege über die 50/50 Input/Output-Philosophie."
     },
     "schoolGuardian": {
-      "title": "School-as-Guardian",
-      "desc": "Uncompromising privacy. Neural data is the most intimate form of personal property. We operate strictly B2B to protect students."
+      "title": "Schule als Hüter",
+      "desc": "Unerbittlicher Datenschutz. Neuronale Daten sind die intimste Form persönlichen Eigentums. Wir agieren strikt B2B zum Schutz der Schüler."
     },
     "globalPathway": {
-      "title": "Global Pathway",
-      "desc": "Direct pipelines to elite universities and the br41n.io hackathon. From local classrooms to European research labs."
+      "title": "Globaler Weg",
+      "desc": "Direkte Verbindungen zu Elite-Universitäten und dem br41n.io Hackathon. Von lokalen Klassenzimmern zu europäischen Forschungslaboren."
     }
   },
   "bciJourney": {
-    "label": "Our Learning Platform",
+    "label": "Unsere Lernplattform",
     "title": "BCI Journey",
-    "subtitle": "An interactive educational platform that brings brain-computer interfaces to life through 3D visualization, AI mentors, and real hardware experiments — all in your browser.",
+    "subtitle": "Eine interaktive Bildungsplattform, die Brain-Computer-Interfaces durch 3D-Visualisierung, KI-Mentoren und echte Hardware-Experimente zum Leben erweckt — alles in Ihrem Browser.",
     "features": [
-      "3D neuroanatomy & immersive simulations — no VR headset required",
-      "AI-powered mentors (Synapse & Spark) for 24/7 voice support",
-      "Somas & global leaderboards — earn rewards and compete",
-      "BCI Lab: connect Unicorn Hybrid Black, run 12 real experiments in-browser"
+      "3D-Neuroanatomie & immersive Simulationen — kein VR-Headset nötig",
+      "KI-Mentoren (Synapse & Spark) für 24/7 Sprachunterstützung",
+      "Somas & globale Bestenlisten — Belohnungen verdienen und wettbewerben",
+      "BCI Lab: Unicorn Hybrid Black verbinden, 12 echte Experimente im Browser"
     ],
-    "tryBci": "Try BCI Journey",
-    "exploreCurriculum": "Explore Curriculum",
-    "videoFallback": "Your browser does not support the video tag."
+    "tryBci": "BCI Journey testen",
+    "exploreCurriculum": "Lehrplan erkunden",
+    "videoFallback": "Ihr Browser unterstützt das Video-Tag nicht."
   },
   "trust": {
-    "label": "Trusted by Educational Vanguards"
+    "label": "Vertraut von Bildungsvorreitern"
   },
   "cyborg": {
-    "title": "The \"Cyborg\" Foundation",
-    "subtitle": "We view neurotechnology not just as an external tool, but as the eventual, seamless extension of the human spirit.",
+    "title": "Das \"Cyborg\"-Fundament",
+    "subtitle": "Wir betrachten Neurotechnologie nicht nur als externes Werkzeug, sondern als die zukünftige, nahtlose Erweiterung des menschlichen Geistes.",
     "items": [
-      "Demystify Neural Integration",
-      "Transition BCI from Sci-Fi to Reality",
-      "Cultivate Agency & Ethics",
-      "Open-Source Architecture"
+      "Neurale Integration verständlich machen",
+      "BCI von Sci-Fi zur Realität",
+      "Handlungsfähigkeit & Ethik fördern",
+      "Open-Source-Architektur"
     ],
-    "readManifesto": "Read our Manifesto"
+    "readManifesto": "Unser Manifest lesen"
   },
   "partners": {
-    "label": "Strategic & Institutional Partners",
-    "subtitle": "Supported by top-tier universities, government innovation hubs, and science popularization committees"
+    "label": "Strategische & institutionelle Partner",
+    "subtitle": "Unterstützt von erstklassigen Universitäten, staatlichen Innovationszentren und Wissenschaftskomitees"
   }
 }
