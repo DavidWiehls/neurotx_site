@@ -60,10 +60,10 @@ function Partners() {
           </div>
         </div>
 
-        <h2 className="text-2xl font-bold mb-8 text-indigo-400">{String(t('network.title'))}</h2>
+        <h2 className="text-2xl font-bold mb-8 text-indigo-400">{toStr(t('network.title'))}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="bg-zinc-900/30 border border-white/10 rounded-2xl p-8">
-            <h3 className="text-xl font-bold mb-8 text-white border-b border-white/10 pb-4">{String(t('network.educational'))}</h3>
+            <h3 className="text-xl font-bold mb-8 text-white border-b border-white/10 pb-4">{toStr(t('network.educational'))}</h3>
             <ul className="space-y-4">
               {schoolItems.map((item, i) => {
                 const name = getItemName(item);
@@ -81,7 +81,7 @@ function Partners() {
             </ul>
           </div>
           <div className="bg-zinc-900/30 border border-white/10 rounded-2xl p-8">
-            <h3 className="text-xl font-bold mb-8 text-white border-b border-white/10 pb-4">{String(t('network.strategic'))}</h3>
+            <h3 className="text-xl font-bold mb-8 text-white border-b border-white/10 pb-4">{toStr(t('network.strategic'))}</h3>
             <ul className="space-y-4">
               {strategicItems.map((item, i) => {
                 const name = getItemName(item);
