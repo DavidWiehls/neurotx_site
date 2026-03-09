@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import { LocaleHead } from './components/LocaleHead';
 import PageSkeleton from './components/ui/PageSkeleton';
 import { isLocale } from './i18n';
+import Partners from './pages/Partners';
 
 const Home = lazy(() => import('./pages/Home'));
 const About = lazy(() => import('./pages/About'));
@@ -13,7 +14,6 @@ const Pricing = lazy(() => import('./pages/Pricing'));
 const CaseStudies = lazy(() => import('./pages/CaseStudies'));
 const Market = lazy(() => import('./pages/Market'));
 const Investors = lazy(() => import('./pages/Investors'));
-const Partners = lazy(() => import('./pages/Partners'));
 const Schools = lazy(() => import('./pages/Schools'));
 const Contact = lazy(() => import('./pages/Contact'));
 const DataEthics = lazy(() => import('./pages/DataEthics'));
