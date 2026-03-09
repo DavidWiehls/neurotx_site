@@ -28,7 +28,7 @@ function LocaleGuard({ children }: { children: React.ReactNode }) {
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/neurotx_site">
       <LocaleHead />
       <div className="min-h-screen bg-black text-white font-sans selection:bg-indigo-500/30">
         <Navbar />
