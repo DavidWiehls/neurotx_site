@@ -2,6 +2,8 @@ import { motion } from 'motion/react';
 import { ArrowRight, BookOpen, Brain, Cpu, ExternalLink, Globe, ShieldCheck } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
+const R2_BASE_URL = 'https://pub-742ce4a3a0dc44c29d8903927e64ad48.r2.dev';
+
 const Home = () => {
   return (
     <div className="bg-black text-white">
@@ -14,7 +16,7 @@ const Home = () => {
           loop
           playsInline
           className="absolute inset-0 w-full h-full object-cover z-0"
-          src={new URL('../../assets/introvideo.mp4', import.meta.url).href}
+          src={`${R2_BASE_URL}/assets/introvideo.mp4`}
         />
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-indigo-900/30 via-black/70 to-black z-[1]" />
@@ -201,7 +203,7 @@ const Home = () => {
               <div className="absolute inset-0 bg-indigo-500/20 blur-3xl rounded-full" />
               <div className="relative bg-zinc-900 border border-white/10 rounded-2xl p-2 overflow-hidden">
                 <video
-                  src={new URL('../../assets/bcijourneydemos/bcijourneymain.mp4', import.meta.url).href}
+                  src={`${R2_BASE_URL}/assets/bcijourneydemos/bcijourneymain.mp4`}
                   autoPlay
                   muted
                   loop
@@ -302,7 +304,7 @@ const Home = () => {
               <div className="absolute inset-0 bg-indigo-500/20 blur-3xl rounded-full" />
               <div className="relative bg-zinc-900 border border-white/10 rounded-2xl p-2 overflow-hidden">
                 <video
-                  src={new URL('../../assets/cyborgfoundation.mp4', import.meta.url).href}
+                  src={`${R2_BASE_URL}/assets/cyborgfoundation.mp4`}
                   autoPlay
                   muted
                   loop
