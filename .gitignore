@@ -6,3 +6,5 @@ coverage/
 *.log
 .env*
 !.env.example
+assets/**/*.mp4
+assets/**/*.MP4
