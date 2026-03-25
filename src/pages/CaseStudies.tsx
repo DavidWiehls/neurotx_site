@@ -2,6 +2,7 @@ import { useState, type ReactNode } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { MapPin, X, ExternalLink } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { r2AssetUrl } from '../r2PublicUrl';
 
 const wechatUrl = {
   hangzhouNo2: 'https://mp.weixin.qq.com/s/hE2bai_ASl91InvxFqyvlw',
@@ -227,7 +228,7 @@ const CaseStudies = () => {
       title: "The Global Neuroscience Pathway",
       summary: "Connecting Year 12 students to the world's leading BCI researchers. Students traveled to Europe to visit official Hosting Institutes and networked with hackathon judges.",
       tags: ["International Mobility", "Research Networking", "Elite Admissions"],
-      image: new URL('../../assets/partners/casestudy_hangerqiangjiang.jpg', import.meta.url).href,
+      image: r2AssetUrl('partners/casestudy_hangerqiangjiang.jpg'),
       wechatUrl: wechatUrl.hangzhouNo2,
     },
     {
@@ -237,7 +238,7 @@ const CaseStudies = () => {
       title: "Bridging Local Excellence with Global Neuroscience",
       summary: "Elevating public school STEM to the global stage. A select cohort of senior students integrated into international hackathon teams, proving capability to elite domestic and foreign universities.",
       tags: ["Public School Innovation", "Global Competition", "Hard Tech Portfolio"],
-      image: new URL('../../assets/partners/casestudy_wenling.png', import.meta.url).href,
+      image: r2AssetUrl('partners/casestudy_wenling.png'),
       wechatUrl: wechatUrl.wenling,
     },
     {
@@ -247,7 +248,7 @@ const CaseStudies = () => {
       title: "The Sino-German Tech Bridge",
       summary: "Pairing linguistic excellence with 'Hard' Tech. 50+ students used the program to build portfolios for Germany's elite TU9 engineering universities (RWTH Aachen, TUM, KIT).",
       tags: ["Sino-German Bridge", "High Volume", "Engineering Focus"],
-      image: new URL('../../assets/partners/casestudy_entel.jpg', import.meta.url).href,
+      image: r2AssetUrl('partners/casestudy_entel.jpg'),
       wechatUrl: null,
     },
     {
@@ -257,7 +258,7 @@ const CaseStudies = () => {
       title: "Scaling the Turnkey ASA Across Middle Grades",
       summary: "OCAC established itself as a regional leader in neurotechnology by deploying the 16-week Turnkey ASA to large middle school cohorts. The program proved that BCI can scale across younger grades, driving institutional FOMO across Suzhou's top-tier international schools.",
       tags: ["Middle School ASA", "Regional Leadership", "Scalable Deployment"],
-      image: new URL('../../assets/partners/casestudy_ocac.jpg', import.meta.url).href,
+      image: r2AssetUrl('partners/casestudy_ocac.jpg'),
       wechatUrl: null,
     }
   ];

@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { Mail, MapPin, Phone } from 'lucide-react';
+import { r2AssetUrl } from '../r2PublicUrl';
 
 const Contact = () => {
   return (
@@ -46,7 +47,7 @@ const Contact = () => {
                 <div className="flex flex-wrap gap-8">
                   <div className="flex flex-col items-center gap-2">
                     <img
-                      src={new URL('../../assets/brand/wechat-qr.jpg', import.meta.url).href}
+                      src={r2AssetUrl('brand/wechat-qr.jpg')}
                       alt="WeChat QR code"
                       className="w-32 h-32 rounded-lg border border-white/10 object-contain bg-white"
                     />
@@ -54,7 +55,7 @@ const Contact = () => {
                   </div>
                   <div className="flex flex-col items-center gap-2">
                     <img
-                      src={new URL('../../assets/brand/whtasapp-qr.jpg', import.meta.url).href}
+                      src={r2AssetUrl('brand/whtasapp-qr.jpg')}
                       alt="WhatsApp QR code"
                       className="w-32 h-32 rounded-lg border border-white/10 object-contain bg-white"
                     />

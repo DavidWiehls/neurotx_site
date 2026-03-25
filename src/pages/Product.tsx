@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
 import { Layers, Monitor, Cpu, Code, Shield, Eye, ExternalLink, Volume2, VolumeX } from 'lucide-react';
-
-const R2_BASE_URL = 'https://pub-742ce4a3a0dc44c29d8903927e64ad48.r2.dev';
+import { r2AssetUrl } from '../r2PublicUrl';
 
 const Product = () => {
   const [aiMentorsMuted, setAiMentorsMuted] = useState(true);
@@ -122,7 +121,7 @@ const Product = () => {
           </div>
           <div className="bg-zinc-900 rounded-2xl border border-white/10 p-2 overflow-hidden">
              <video
-                src={`${R2_BASE_URL}/assets/fathersonbci.mp4`}
+                src={r2AssetUrl('fathersonbci.mp4')}
                 autoPlay
                 loop
                 muted
@@ -143,7 +142,7 @@ const Product = () => {
           >
             <div className="aspect-video bg-black">
               <video
-                src={`${R2_BASE_URL}/assets/bcijourneydemos/talkmode.mp4`}
+                src={r2AssetUrl('bcijourneydemos/talkmode.mp4')}
                 controls
                 playsInline
                 className="w-full h-full object-contain"
@@ -166,7 +165,7 @@ const Product = () => {
           >
             <div className="aspect-video bg-black">
               <video
-                src={`${R2_BASE_URL}/assets/introvideo.mp4`}
+                src={r2AssetUrl('introvideo.mp4')}
                 controls
                 playsInline
                 className="w-full h-full object-contain"
@@ -199,7 +198,7 @@ const Product = () => {
               >
                 <div className="aspect-video bg-black relative">
                   <video
-                    src={`${R2_BASE_URL}/assets/bcijourneydemos/${demo.src}`}
+                    src={r2AssetUrl(`bcijourneydemos/${demo.src}`)}
                     autoPlay
                     loop
                     playsInline

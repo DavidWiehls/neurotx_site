@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { Shield, Lock } from 'lucide-react';
+import { r2AssetUrl } from '../r2PublicUrl';
 
 const About = () => {
   return (
@@ -83,7 +84,7 @@ const About = () => {
             </div>
             <div className="bg-zinc-800 h-64 md:h-auto relative">
                <img 
-                src={new URL('../../assets/company-information/David_profile.JPG', import.meta.url).href}
+                src={r2AssetUrl('company-information/David_profile.JPG')}
                 alt="David Wiehls"
                 className="w-full h-full object-cover object-top"
                />
