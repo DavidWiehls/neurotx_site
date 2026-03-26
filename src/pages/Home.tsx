@@ -48,7 +48,7 @@ const Home = () => {
               <Link to="/product" className="w-full sm:w-auto px-8 py-4 bg-white/10 hover:bg-white/20 text-white border border-white/10 rounded-xl font-semibold transition-all backdrop-blur-sm">
                 Explore Curriculum
               </Link>
-              <Link to="/investors" className="w-full sm:w-auto px-8 py-4 bg-white/5 hover:bg-white/10 text-gray-300 border border-white/10 rounded-xl font-semibold transition-all backdrop-blur-sm">
+              <Link to="/investor" className="w-full sm:w-auto px-8 py-4 bg-white/5 hover:bg-white/10 text-gray-300 border border-white/10 rounded-xl font-semibold transition-all backdrop-blur-sm">
                 For Investors
               </Link>
               <Link to="/partners" className="w-full sm:w-auto px-8 py-4 bg-white/5 hover:bg-white/10 text-gray-300 border border-white/10 rounded-xl font-semibold transition-all backdrop-blur-sm">
