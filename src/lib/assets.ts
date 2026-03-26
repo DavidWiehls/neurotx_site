@@ -1,19 +1,19 @@
 /**
- * Asset paths for media served from public/assets/.
- * Files in public/ are served at root during dev and copied to dist root in production.
+ * Asset paths for media.
+ * Videos are served from Cloudflare R2 public bucket.
  */
 const R2_PUBLIC_BASE_URL = 'https://pub-742ce4a3a0dc44c29d8903927e64ad48.r2.dev';
-const r2Asset = (path: string) => `${R2_PUBLIC_BASE_URL}/${path}`;
+const r2Video = (path: string) => `${R2_PUBLIC_BASE_URL}${path}`;
 
 export const assets = {
   videos: {
-    introvideo: r2Asset('assets/introvideo.mp4'),
-    fathersonbci: r2Asset('assets/fathersonbci.mp4'),
-    cyborgfoundation: r2Asset('assets/cyborgfoundation.mp4'),
-    bcijourneymain: r2Asset('assets/bcijourneydemos/bcijourneymain.mp4'),
-    bcijourneylisten: r2Asset('assets/bcijourneydemos/bcijourneylisten.mp4'),
-    bcijourneylab: r2Asset('assets/bcijourneydemos/bcijourneylab.mp4'),
-    talkmode: r2Asset('assets/bcijourneydemos/talkmode.mp4'),
+    introvideo: r2Video('/assets/introvideo.mp4'),
+    fathersonbci: r2Video('/assets/fathersonbci.mp4'),
+    cyborgfoundation: r2Video('/assets/cyborgfoundation.mp4'),
+    bcijourneymain: r2Video('/assets/bcijourneydemos/bcijourneymain.mp4'),
+    bcijourneylisten: r2Video('/assets/bcijourneydemos/bcijourneylisten.mp4'),
+    bcijourneylab: r2Video('/assets/bcijourneydemos/bcijourneylab.mp4'),
+    talkmode: r2Video('/assets/bcijourneydemos/talkmode.mp4'),
   },
   partners: {
     chongwen: '/assets/partners/chongwen.jpg',
