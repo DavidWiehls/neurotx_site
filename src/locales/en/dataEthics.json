@@ -1,0 +1,16 @@
+{
+  "title": "Data Ethics & Privacy",
+  "subtitle": "Neural data is the most intimate form of personal property. Our privacy framework is uncompromising.",
+  "guardian": {
+    "title": "The \"School-as-Guardian\" Model",
+    "desc": "We operate strictly B2B. Every student must be enrolled and verified by a school. The institution remains the legal and ethical steward of students' neural data. We never commercialize or sell neural data."
+  },
+  "collaborative": {
+    "title": "Collaborative Protection",
+    "desc": "We partner with schools to create a fortified, closed-loop environment. Data flows from student to school-controlled infrastructure only."
+  },
+  "deletion": {
+    "title": "Data Deletion",
+    "desc": "At the end of every semester, student neural models and session data are deleted per mandated protocols. Schools and students retain full control."
+  }
+}

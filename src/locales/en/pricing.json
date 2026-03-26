@@ -1,0 +1,56 @@
+{
+  "title": "Partnership Models",
+  "subtitle": "Standardized partnership tiers designed for seamless integration into International, Bilingual, and Elite Public Schools.",
+  "tier1": {
+    "label": "Tier 1",
+    "name": "Neuro-Discovery",
+    "desc": "The low-friction entry point. Perfect for STEM Weeks.",
+    "price": "¥5,000",
+    "unit": "/ day",
+    "features": [
+      "1-to-2 day intensive boot camp",
+      "On-site NeuroTX Specialized Teacher",
+      "All BCI hardware included",
+      "Up to 200 participants per day"
+    ],
+    "cta": "Book Workshop"
+  },
+  "tier2": {
+    "label": "Tier 2",
+    "badge": "POPULAR",
+    "name": "Turnkey ASA",
+    "desc": "Complete 16-week extracurricular program.",
+    "price": "¥49,000",
+    "unit": "/ semester",
+    "features": [
+      "Full 16-week curriculum",
+      "Weekly instruction by NeuroTX Expert",
+      "Full LMS student access",
+      "Max cohort size of 25 students",
+      "br41n.io Hackathon preparation"
+    ],
+    "cta": "Start ASA Program"
+  },
+  "tier3": {
+    "label": "Tier 3",
+    "name": "Neural Campus",
+    "desc": "Full academic year integration & teacher certification.",
+    "price": "¥55,000",
+    "unit": "/ year (base)",
+    "note": "+ ¥12,000 Teacher PD · + ¥700/student seat",
+    "example": "Example: 100 students ≈ ¥137,000/year",
+    "features": [
+      "Annual Software License",
+      "\"Neural Guide\" Teacher Certification (PD: ¥12,000)",
+      "Hardware procurement consulting",
+      "2 on-site expert visits per semester",
+      "Sustainable, long-term capability"
+    ],
+    "cta": "Contact for Licensing"
+  },
+  "parents": {
+    "title": "For Parents",
+    "desc": "Looking for the 16-week After-School Activity? The ASA program costs approximately ¥1,960 - ¥3,000 per student depending on your school's hosting fee.",
+    "cta": "Request Parent Brochure"
+  }
+}

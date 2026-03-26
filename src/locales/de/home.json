@@ -1,0 +1,87 @@
+{
+  "hero": {
+    "badge": "Die Zukunft der K-12-Bildung",
+    "title": "Verständlich machen",
+    "titleHighlight": "Neurale Integration",
+    "subtitle": "Wir verwandeln Brain-Computer-Interfaces (BCI) von Science-Fiction in eine grundlegende Lebenskompetenz. Wir befähigen die nächste Generation von Neural Architects.",
+    "ctaSchools": "Für Schulen",
+    "ctaCurriculum": "Lehrplan erkunden",
+    "ctaInvestors": "Für Investoren",
+    "ctaPartners": "Partner werden"
+  },
+  "caseStudies": {
+    "label": "Erfolgsgeschichten",
+    "title": "Reale Wirkung an Schulen",
+    "subtitle": "Von elitären internationalen Abteilungen bis zu erstklassigen öffentlichen Gymnasien — sehen Sie, wie NeuroTX die MINT-Bildung transformiert und Schüler mit globalen Forschungsnetzwerken verbindet.",
+    "wechatPost": "WeChat-Beitrag",
+    "readFull": "Vollständige Fallstudien lesen",
+    "items": {
+      "hangzhouNo2": {
+        "school": "Hangzhou No.2 High School Qianjiang",
+        "outcome": "Weg zu europäischen Laboren für globale Neurowissenschaft",
+        "type": "Elite International"
+      },
+      "wenling": {
+        "school": "Zhejiang Wenling High School",
+        "outcome": "Öffentliche Schulen auf die globale BCI-Bühne",
+        "type": "Erstklassig Öffentlich"
+      },
+      "entel": {
+        "school": "Hangzhou Entel Foreign Language School",
+        "outcome": "50+ Schüler an Deutschlands TU9-Universitäten",
+        "type": "Fremdsprachenschule"
+      },
+      "ocac": {
+        "school": "OCAC Suzhou",
+        "outcome": "BCI-Skalierung über Mittelschul-Kohorten",
+        "type": "Mittelschul-ASA"
+      }
+    }
+  },
+  "mission": {
+    "cognitiveEvolution": {
+      "title": "Kognitive Evolution",
+      "desc": "Schüler erwerben Fähigkeiten über nicht-traditionelle, direkte neuronale Wege über die 50/50 Input/Output-Philosophie."
+    },
+    "schoolGuardian": {
+      "title": "Schule als Hüter",
+      "desc": "Unerbittlicher Datenschutz. Neuronale Daten sind die intimste Form persönlichen Eigentums. Wir agieren strikt B2B zum Schutz der Schüler."
+    },
+    "globalPathway": {
+      "title": "Globaler Weg",
+      "desc": "Direkte Verbindungen zu Elite-Universitäten und dem br41n.io Hackathon. Von lokalen Klassenzimmern zu europäischen Forschungslaboren."
+    }
+  },
+  "bciJourney": {
+    "label": "Unsere Lernplattform",
+    "title": "BCI Journey",
+    "subtitle": "Eine interaktive Bildungsplattform, die Brain-Computer-Interfaces durch 3D-Visualisierung, KI-Mentoren und echte Hardware-Experimente zum Leben erweckt — alles in Ihrem Browser.",
+    "features": [
+      "3D-Neuroanatomie & immersive Simulationen — kein VR-Headset nötig",
+      "KI-Mentoren (Synapse & Spark) für 24/7 Sprachunterstützung",
+      "Somas & globale Bestenlisten — Belohnungen verdienen und wettbewerben",
+      "BCI Lab: Unicorn Hybrid Black verbinden, 12 echte Experimente im Browser"
+    ],
+    "tryBci": "BCI Journey testen",
+    "exploreCurriculum": "Lehrplan erkunden",
+    "videoFallback": "Ihr Browser unterstützt das Video-Tag nicht."
+  },
+  "trust": {
+    "label": "Vertraut von Bildungsvorreitern"
+  },
+  "cyborg": {
+    "title": "Das \"Cyborg\"-Fundament",
+    "subtitle": "Wir betrachten Neurotechnologie nicht nur als externes Werkzeug, sondern als die zukünftige, nahtlose Erweiterung des menschlichen Geistes.",
+    "items": [
+      "Neurale Integration verständlich machen",
+      "BCI von Sci-Fi zur Realität",
+      "Handlungsfähigkeit & Ethik fördern",
+      "Open-Source-Architektur"
+    ],
+    "readManifesto": "Unser Manifest lesen"
+  },
+  "partners": {
+    "label": "Strategische & institutionelle Partner",
+    "subtitle": "Unterstützt von erstklassigen Universitäten, staatlichen Innovationszentren und Wissenschaftskomitees"
+  }
+}

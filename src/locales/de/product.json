@@ -1,0 +1,105 @@
+{
+  "title": "Der neurale Architekt",
+  "subtitle": "Wir lehren nicht nur Programmieren; wir lehren Systemdesign. Von blockbasierter Logik bis zu KI-gestützter Python-Architektur.",
+  "curriculum": {
+    "title": "16-Wochen-Lehrplan",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Grundlagen & Ethik",
+        "weeks": "Woche 1–4",
+        "desc": "Neurale Kompetenz, Datenschutz und Signallogik etablieren. Übergang von Blöcken zu KI-Prompts."
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Passives BCI",
+        "weeks": "Woche 5–8",
+        "desc": "Die Input-Seite verstehen. Kognitiver Zustand, Fokus-Metriken und Neurofeedback."
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Reaktives BCI",
+        "weeks": "Woche 9–12",
+        "desc": "Evoziertes Potential (P300/SSVEP). Automatische Hirnreaktionen zur Auslösung digitaler Aktionen nutzen."
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Aktives BCI & Capstone",
+        "weeks": "Woche 13–16",
+        "desc": "Motorische Vorstellung (MI). Gedachte Bewegung zur Steuerung physischer Roboter (VEX/LEGO)."
+      }
+    ]
+  },
+  "techStack": {
+    "title": "Der Tech-Stack",
+    "bciJourney": {
+      "title": "BCI Journey",
+      "desc": "Unsere interaktive Lernplattform: 3D-Neuroanatomie, KI-Tutoren (Synapse & Spark), Somas & Bestenlisten, und das BCI Lab — Unicorn Hybrid Black per Bluetooth verbinden und 12 echte Experimente (P300, Motor Imagery, SSVEP u.a.) mit 8-Kanal-EEG im Browser ausführen. Mit „Readiness Gate\", damit Studierende die Theorie beherrschen, bevor sie Hardware nutzen.",
+      "cta": "BCI Journey ausprobieren"
+    },
+    "hardware": {
+      "title": "Hardware: Unicorn Hybrid Black",
+      "desc": "Forschungs-8-Kanal-EEG-Headset. Branchenstandard für Universitäts-Hackathons, bereitgestellt von unserem Partner g.tec."
+    },
+    "aiCoding": {
+      "title": "KI-gestütztes Programmieren",
+      "desc": "Wir lehren Studierende, Systemarchitekten zu sein. Natürliche Sprach-Prompts für Python-Pipelines zu FFT und Klassifikatoren nutzen."
+    }
+  },
+  "aiAssistants": {
+    "title": "KI-Assistenten 24/7",
+    "desc": "Die BCI Journey Lernplattform bietet rund um die Uhr KI-Tutoren für Ihren Lernprozess. Sofortige Hilfe zu Konzepten, Programmierung und Neurotechnologie — wann immer Sie sie brauchen."
+  },
+  "hardwareAction": {
+    "title": "Hardware in Aktion",
+    "desc": "Sehen Sie die Hardware-Komponente unseres Lehrplans — Forschungs-EEG-Headsets, praxisnahe BCI-Experimente und Studierende, die im realen Unterricht Hirn und Maschine verbinden."
+  },
+  "demos": {
+    "title": "Plattform-Demos",
+    "items": [
+      {
+        "title": "Plattform-Überblick",
+        "desc": "3D-Neuroanatomie, interaktive Simulationen und das vollständige Lernerlebnis erkunden."
+      },
+      {
+        "title": "BCI Lab: Echte Experimente",
+        "desc": "Unicorn Hybrid Black Headset verbinden und Live-EEG-Experimente im Browser ausführen."
+      },
+      {
+        "title": "KI-Mentoren: Synapse & Spark",
+        "desc": "Sprachgespräche mit 24/7 verfügbaren KI-Tutoren für persönliche Unterstützung."
+      }
+    ]
+  },
+  "experiments": {
+    "title": "Masterliste der Experimente",
+    "subtitle": "Über das BCI Lab-Modul von BCI Journey — Unicorn Hybrid Black verbinden und diese Paradigmen im Browser ausführen.",
+    "passive": "Passives BCI",
+    "reactive": "Reaktives BCI",
+    "active": "Aktives BCI",
+    "passiveItems": [
+      "Der Zauberspiegel (Artefakt-Erkennung)",
+      "Fokus Power Dash (Beta-Wellen)",
+      "Der Beruhigungsraum (Neurofeedback)",
+      "Adaptives Mathe-Quiz (Kognitive Last)"
+    ],
+    "reactiveItems": [
+      "Der Sortierhut (Klassifikatoren)",
+      "Mind Painter (SSVEP)",
+      "Die Mind-Tastatur (P300)",
+      "API-Brücke (Python zu Roboter)"
+    ],
+    "activeItems": [
+      "Digitaler Blockstoß (Kalibrierung)",
+      "Drive the Bug (Ein-Klassen-MI)",
+      "VEX-Parcours (Zwei-Klassen-MI)",
+      "Roboter-Manipulation (Mehr-Klassen-MI)"
+    ]
+  },
+  "aria": {
+    "unmute": "Stummschaltung aufheben",
+    "mute": "Stummschalten",
+    "video": "Vater und Sohn nutzen BCI"
+  },
+  "videoFallback": "Ihr Browser unterstützt das Video-Tag nicht."
+}

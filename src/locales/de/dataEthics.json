@@ -1,0 +1,16 @@
+{
+  "title": "Datenethik & Datenschutz",
+  "subtitle": "Neurale Daten sind die intimste Form von persönlichem Eigentum. Unser Datenschutz-Rahmen ist kompromisslos.",
+  "guardian": {
+    "title": "Das „Schule-als-Wächter\"-Modell",
+    "desc": "Wir operieren strikt B2B. Jeder Studierende muss von einer Schule eingeschrieben und verifiziert sein. Die Institution bleibt der rechtliche und ethische Verwalter der neuronalen Daten der Studierenden. Wir kommerzialisieren oder verkaufen neurale Daten niemals."
+  },
+  "collaborative": {
+    "title": "Kollaborativer Schutz",
+    "desc": "Wir arbeiten mit Schulen zusammen, um eine geschützte, geschlossene Umgebung zu schaffen. Daten fließen nur von Studierenden zu schulkontrollierter Infrastruktur."
+  },
+  "deletion": {
+    "title": "Datenlöschung",
+    "desc": "Am Ende jedes Semesters werden neuronale Modelle und Sitzungsdaten der Studierenden gemäß vorgeschriebenen Protokollen gelöscht. Schulen und Studierende behalten die volle Kontrolle."
+  }
+}

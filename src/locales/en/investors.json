@@ -1,0 +1,68 @@
+{
+  "title": "Investment Highlights",
+  "subtitle": "NeuroTX is building the bridge between university-level neurotechnology and K-12 education. Scalable unit economics, clear TAM, and a hybrid logistics model designed for margin preservation.",
+  "stats": {
+    "tam": {
+      "label": "Total Addressable Market",
+      "value": "1,550–1,950",
+      "sublabel": "Qualified Schools (49 cities)"
+    },
+    "tier3": {
+      "label": "Tier 3 Example Contract",
+      "value": "¥137,000",
+      "sublabel": "Per year (100 students)"
+    },
+    "stem": {
+      "label": "Global STEM Market",
+      "value": "$131B",
+      "sublabel": "By 2030 (13.7% CAGR)"
+    },
+    "abroad": {
+      "label": "Students Studying Abroad",
+      "value": "900k+",
+      "sublabel": "From China"
+    }
+  },
+  "revenue": {
+    "title": "Triple-Stream Revenue Model",
+    "stem": {
+      "title": "STEM Department Budgets",
+      "desc": "Curriculum integrates with existing AI, robotics, and programming classes. Natural fit for annual institutional budgets."
+    },
+    "grants": {
+      "title": "Provincial & Government Grants",
+      "desc": "Subsidized by local governments and aligned with 184 MOE AI education bases and special education reform."
+    },
+    "private": {
+      "title": "Private Tuition & B2C",
+      "desc": "Parents and private schools fund ASA programs. Premium positioning for elite university portfolio building."
+    }
+  },
+  "unitEconomics": {
+    "title": "Unit Economics",
+    "tier2": {
+      "title": "Tier 2: Turnkey ASA",
+      "desc": "¥49,000 per 16-week cohort (max 25 students). High margin with controlled labor. Schools charge parents ~¥3,000/student for ASA; win-win economics.",
+      "tag": "Primary cash cow · br41n.io hackathon pipeline"
+    },
+    "tier3": {
+      "title": "Tier 3: Neural Campus (SaaS Scaling)",
+      "desc": "Base: ¥55,000 · PD: ¥12,000 · Seat: ¥700/student. Example: 100 students = ¥137,000/year. Pure software and IP margin—school teachers deliver after certification.",
+      "tag": "Holy Grail tier · Acquisition/VC target"
+    }
+  },
+  "logistics": {
+    "title": "Hybrid Logistics Model",
+    "desc": "The proprietary Web-LMS delivers theoretical curriculum at scale. Specialized traveling teachers are dispatched only when student cohorts pass the \"Readiness Gate.\" Preserves margins while scaling nationally across 49 cities.",
+    "items": [
+      "LMS handles daily curriculum delivery",
+      "Readiness Gate ensures high-stakes hardware deployment only when ready",
+      "Traveling experts for calibration and capstone labs"
+    ]
+  },
+  "government": {
+    "title": "Government & Innovation",
+    "desc": "China's Ministry of Education has designated 184 official AI education bases. These schools receive specialized grants for innovation, STEM modernization, and hardware procurement. NeuroTX's curriculum aligns directly with the MOE mandate for advanced digital literacy and AI integration by 2030."
+  },
+  "cta": "Schedule a Conversation"
+}

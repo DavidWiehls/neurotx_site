@@ -1,0 +1,45 @@
+{
+  "title": "联系我们",
+  "subtitle": "准备将神经技术的未来带入贵校？",
+  "info": {
+    "title": "联系信息",
+    "email": {
+      "title": "邮箱",
+      "value": "davidwiehls@neurotx.education",
+      "desc": "合作咨询与洽谈。"
+    },
+    "hq": {
+      "title": "总部",
+      "value": "中国杭州",
+      "desc": "业务覆盖长三角与大湾区。"
+    },
+    "scan": "扫码联系",
+    "wechat": "微信",
+    "whatsapp": "WhatsApp"
+  },
+  "schoolsBox": {
+    "title": "学校与合作伙伴",
+    "desc": "我们正在扩展脑机接口黑客马拉松合作渠道。如您是 STEM 总监或校长并有兴趣建立合作，请直接联系我们预约演示。"
+  },
+  "form": {
+    "title": "给我们留言",
+    "name": "姓名",
+    "namePlaceholder": "张三",
+    "email": "邮箱",
+    "emailPlaceholder": "zhangsan@school.edu",
+    "school": "学校 / 机构",
+    "schoolPlaceholder": "某某国际学校...",
+    "interest": "我感兴趣的是...",
+    "interests": [
+      "第一档：工作坊",
+      "第二档：课后活动",
+      "第三档：全校整合",
+      "投资咨询",
+      "合作 / 协作",
+      "一般咨询"
+    ],
+    "message": "留言",
+    "messagePlaceholder": "请告诉我们贵校的需求...",
+    "submit": "发送"
+  }
+}

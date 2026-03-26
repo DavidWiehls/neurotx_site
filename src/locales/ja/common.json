@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "about": "会社概要",
+    "product": "製品",
+    "pricing": "料金",
+    "caseStudies": "事例研究",
+    "market": "市場",
+    "investors": "投資家",
+    "partners": "パートナー",
+    "schools": "学校向け",
+    "contact": "お問い合わせ"
+  },
+  "footer": {
+    "tagline": "ニューラル統合を分かりやすく。脳コンピュータインターフェースをSFから次世代の基礎スキルへ。",
+    "platform": "プラットフォーム",
+    "curriculum": "カリキュラム",
+    "hardware": "ハードウェア",
+    "pricing": "料金",
+    "forSchools": "学校向け",
+    "resources": "リソース",
+    "caseStudies": "事例研究",
+    "marketData": "市場データ",
+    "investors": "投資家",
+    "missionEthics": "ミッションと倫理",
+    "partners": "パートナー",
+    "connect": "お問い合わせ",
+    "contactUs": "お問い合わせ",
+    "copyright": "NeuroTX Education. All rights reserved.",
+    "dataEthics": "データ倫理",
+    "privacyPolicy": "プライバシーポリシー（準備中）",
+    "termsOfService": "利用規約（準備中）"
+  },
+  "brand": "NeuroTX"
+}

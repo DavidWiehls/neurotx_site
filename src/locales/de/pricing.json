@@ -1,0 +1,56 @@
+{
+  "title": "Partnerschaftsmodelle",
+  "subtitle": "Standardisierte Partnerschaftsstufen für nahtlose Integration in internationale, bilinguale und Elite-öffentliche Schulen.",
+  "tier1": {
+    "label": "Stufe 1",
+    "name": "Neuro-Discovery",
+    "desc": "Der reibungslose Einstieg. Ideal für STEM-Wochen.",
+    "price": "¥5,000",
+    "unit": "/ Tag",
+    "features": [
+      "1–2-tägiges Intensiv-Bootcamp",
+      "NeuroTX-Speziallehrer vor Ort",
+      "Alle BCI-Hardware inklusive",
+      "Bis zu 200 Teilnehmer pro Tag"
+    ],
+    "cta": "Workshop buchen"
+  },
+  "tier2": {
+    "label": "Stufe 2",
+    "badge": "BELIEBT",
+    "name": "Turnkey ASA",
+    "desc": "Vollständiges 16-Wochen-Extrakurrikularprogramm.",
+    "price": "¥49,000",
+    "unit": "/ Semester",
+    "features": [
+      "Vollständiger 16-Wochen-Lehrplan",
+      "Wöchentlicher Unterricht durch NeuroTX-Experten",
+      "Voller LMS-Zugang für Studierende",
+      "Max. Kohortengröße 25 Studierende",
+      "br41n.io Hackathon-Vorbereitung"
+    ],
+    "cta": "ASA-Programm starten"
+  },
+  "tier3": {
+    "label": "Stufe 3",
+    "name": "Neural Campus",
+    "desc": "Vollständige akademische Jahresintegration & Lehrzertifizierung.",
+    "price": "¥55,000",
+    "unit": "/ Jahr (Basis)",
+    "note": "+ ¥12,000 Lehrfortbildung · + ¥700/Studierendenplatz",
+    "example": "Beispiel: 100 Studierende ≈ ¥137,000/Jahr",
+    "features": [
+      "Jährliche Software-Lizenz",
+      "„Neural Guide\"-Lehrzertifizierung (FB: ¥12,000)",
+      "Hardware-Beschaffungsberatung",
+      "2 Expertenbesuche pro Semester",
+      "Nachhaltige, langfristige Kapazität"
+    ],
+    "cta": "Lizenz anfragen"
+  },
+  "parents": {
+    "title": "Für Eltern",
+    "desc": "Suchen Sie die 16-wöchige Nachmittagsaktivität? Das ASA-Programm kostet je nach Schulgebühr ca. ¥1.960–¥3.000 pro Kind.",
+    "cta": "Elternbroschüre anfordern"
+  }
+}

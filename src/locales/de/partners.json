@@ -1,0 +1,59 @@
+{
+  "title": "Vertrauensnetzwerk",
+  "subtitle": "Unser operativer Erfolg wird von einem robusten Netzwerk aus Top-Universitäten, staatlichen Innovationszentren und Elite-Schulen unterstützt.",
+  "opportunities": {
+    "title": "Partnerschaftsmöglichkeiten",
+    "hardware": {
+      "title": "Hardware-Partner",
+      "desc": "Wir arbeiten mit g.tec und anderen Forschungs-BCI-Hardwareanbietern. Das Unicorn Hybrid Black 8-Kanal-EEG ist der Branchenstandard.",
+      "cta": "Hardware-Integration erkunden"
+    },
+    "steam": {
+      "title": "STEAM & Robotik (Plugin-Strategie)",
+      "desc": "BCI-Lehrpläne integrieren sich mit VEX Robotics, LEGO und ROS. Wir entwerfen Lehrpläne, die in bereits vorhandene Schulhardware einbinden.",
+      "cta": "STEAM-Partner werden"
+    },
+    "institutional": {
+      "title": "Institutionelle Partner",
+      "desc": "Universitäten, staatliche Innovationszentren und Wissenschaftspopularisierungsausschüsse. Wir veranstalten kostenlose BCI-Vorträge und Hackathons.",
+      "cta": "Partner werden"
+    },
+    "hosting": {
+      "title": "Host-Schulen",
+      "desc": "Offizielle br41n.io Host-Institutionen. Veranstalten Sie regionale oder nationale Hackathon-Events und positionieren Sie Ihre Schule als Neurotechnologie-Hub.",
+      "cta": "Host-Institution werden"
+    }
+  },
+  "network": {
+    "title": "Unser Netzwerk",
+    "educational": "Bildungsvorreiter (Pilot- & Partnerschulen)",
+    "strategic": "Strategische & Institutionelle Partner",
+    "badges": {
+      "hosting": "Offizielle br41n.io Host-Institution",
+      "hardware": "Hardware-Partner · Unicorn Hybrid Black EEG"
+    }
+  },
+  "schools": [
+    { "name": "Hangzhou Chongwen Century City Experimental School", "badge": "Offizielle br41n.io Host-Institution" },
+    "Hangzhou Xuejun Wenyuan Experimental School",
+    "Hangzhou Wahaha Bilingual School",
+    "Hangzhou Entel Foreign Language School",
+    "Hangzhou No.2 High School Qianjiang",
+    "Zhejiang Wenling High School",
+    "Overseas Chinese Academy of Concord Suzhou (OCAC)",
+    "Britannia International School in Guangzhou (BIS)",
+    "Canadian International School of Guangzhou (CIS)",
+    "Foshan No.1 High School",
+    "EtonHouse International Education Group",
+    "Canada Kent School"
+  ],
+  "strategicPartners": [
+    { "name": "g.tec medical engineering", "badge": "Hardware-Partner · Unicorn Hybrid Black EEG" },
+    "Zhejiang University Science Park",
+    "Zhejiang University of Science and Technology (ZUST)",
+    "Qizhen Brain-Computer Intelligence Industrialization Base",
+    "Zhejiang Science Popularization Federation (Sci2U)",
+    "China-Germany Foshan Industry Park",
+    "Suzhou Innovation Center of Shanghai University"
+  ]
+}

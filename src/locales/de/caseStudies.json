@@ -1,0 +1,111 @@
+{
+  "title": "Erfolgsgeschichten",
+  "subtitle": "Reale Wirkung in internationalen, öffentlichen und Fremdsprachenschulen.",
+  "readFull": "Vollständige Fallstudie lesen",
+  "viewWechat": "WeChat-Post ansehen",
+  "wechatPost": "WeChat-Post",
+  "contactUs": "Kontakt",
+  "studies": {
+    "hangzhouNo2": {
+      "school": "Hangzhou No.2 High School Qianjiang",
+      "type": "Elite-Internationale Abteilung",
+      "title": "Der globale Neurowissenschafts-Weg",
+      "summary": "Jahrgangsstufe 12 mit führenden BCI-Forschern weltweit verbunden. Studierende reisten nach Europa, besuchten offizielle Host-Institute und vernetzten sich mit Hackathon-Juroren.",
+      "tags": ["Internationale Mobilität", "Forschungsnetzwerk", "Elite-Zulassung"]
+    },
+    "wenling": {
+      "school": "Zhejiang Wenling High School",
+      "type": "Top-öffentliches Gymnasium",
+      "title": "Lokale Exzellenz mit globaler Neurowissenschaft verbinden",
+      "summary": "STEM öffentlicher Schulen auf die globale Bühne. Ausgewählte Oberstufenschüler in internationale Hackathon-Teams integriert und Elite-Unis im In- und Ausland überzeugt.",
+      "tags": ["Öffentliche Schulinnovation", "Wettbewerb global", "Hard-Tech-Portfolio"]
+    },
+    "entel": {
+      "school": "Hangzhou Entel Foreign Language School",
+      "type": "Fremdsprachenschule",
+      "title": "Die chinesisch-deutsche Tech-Brücke",
+      "summary": "Sprachliche Exzellenz mit Hard Tech verbunden. Über 50 Studierende nutzten das Programm für Portfolios an Deutschlands Elite-TU9-Ingenieuruniversitäten (RWTH Aachen, TUM, KIT).",
+      "tags": ["Chinesisch-deutsche Brücke", "Großvolumen", "Ingenieur-Fokus"]
+    },
+    "ocac": {
+      "school": "Overseas Chinese Academy of Concord Suzhou (OCAC)",
+      "type": "Großvolumen-Mittelschule",
+      "title": "Turnkey ASA über Mittlere Klassen skaliert",
+      "summary": "OCAC etablierte sich als regionaler Neurotechnologie-Führer durch 16-Wochen-Turnkey ASA für große Mittelschul-Kohorten. BCI skaliert über jüngere Jahrgänge.",
+      "tags": ["Mittelschul-ASA", "Regionale Führung", "Skalierbare Umsetzung"]
+    }
+  },
+  "detail": {
+    "hangzhouNo2": {
+      "title": "Der globale Neurowissenschafts-Weg",
+      "subtitle": "Wie Hangzhou No.2 High School Qianjiang Jahrgangsstufe 12 mit weltweit führenden BCI-Forschern verband",
+      "challengeTitle": "Die Herausforderung: Sich im globalen Bewerberpool abheben",
+      "challengeContent": "Für die Elite-Schüler der internationalen Abteilung von Hangzhou No.2 High School Qianjiang ist akademische Exzellenz selbstverständlich. Bei der Vorbereitung auf hochkompetitive Neurowissenschafts-, Pre-Med- und Ingenieurprogramme in China und im Ausland standen sie vor der Frage: Wie beweist man echte Forschungsfähigkeit und internationale Zusammenarbeit vor dem Studium? Die Schule brauchte ein Programm jenseits von Standard-Robotik für echtes, grenzüberschreitendes akademisches Networking.",
+      "phase1Title": "Phase 1: Katalysator & globale Zusammenarbeit (April–Mai 2025)",
+      "phase1P1": "Im April 2025 startete ein NeuroTX Neuro-Discovery Workshop. In nur zwei Tagen lernten die Schüler BCI-Grundlagen, visualisierten ihre eigenen EEG-Signale und verstanden das 50/50 Input/Output-Paradigma.",
+      "phase1P2": "Die Begeisterung war so groß, dass sich die Schüler sofort für den Mai 2025 br41n.io Global Hackathon anmeldeten.",
+      "phase1Bullet": "Der Durchbruch: Als globales virtuelles Hybrid-Event wurden die Schüler in internationale Projektteams integriert. 48 Stunden lang arbeiteten sie mit Peers und Mentoren weltweit an Algorithmen, Python-Code, echten klinischen Daten und Live-BCI-Hardware.",
+      "phase2Title": "Phase 2: Die europäische akademische Expedition (Sommer 2025)",
+      "phase2Italic": "Die Brücke zwischen Klassenzimmer und Forschungslabor.",
+      "phase2P1": "Dank des internationalen Mobilitätsprogramms und ihrem Status als br41n.io-Teilnehmer reisten die Schüler 2025 nach Europa. Durch NeuroTX war dies mehr als eine Standard-Studienreise.",
+      "phase2P2": "Die Schüler besuchten physisch offizielle Host-Institute des internationalen BCI-Hackathons in Europa.",
+      "phase2List": ["Sie betraten erstklassige Neurowissenschaftslabore.", "Sie sahen fortschrittliche Forschungs-Hardware in Aktion.", "Am wichtigsten: Sie trafen die Forscher und Professoren, die Wochen zuvor ihre Hackathon-Projekte bewertet hatten."],
+      "phase3Title": "Phase 3: Vertiefung & Karrierebeschleunigung (Aktuell: 2025–2026)",
+      "phase3P1": "Verändert kehrten die Schüler nach Hangzhou zurück und erkannten BCI als ihren klaren Karriereweg. Sie meldeten sich für fortgeschrittene NeuroTX BCI-Kurse an – Signalakquisition, Artefakt-Filterung und maschinelles Lernen.",
+      "phase3P2": "Ziel: Die Schüler bereiten sich intensiv auf die br41n.io Spring School und den Hackathon im April 2026 vor.",
+      "phase3List": ["Als erfahrene Teilnehmer, nicht als Anfänger.", "Sie nutzen NeuroTX LMS und KI-gestütztes Coding für hoch fortgeschrittene Projekte.", "Ihr Ziel: Über die 2026-Veranstaltung direkt mit Professoren vernetzen und Zulassungen sowie Forschungsplätze an Elite-Neurowissenschaftsprogrammen sichern."],
+      "resultTitle": "Das Ergebnis: Unvergleichlicher ROI für Schule und Schüler",
+      "resultP": "Durch die NeuroTX-Pipeline bot Hangzhou No.2 High School Qianjiang ihren Schülern einen unschätzbaren akademischen Mehrwert:",
+      "resultList": ["Verifizierbare internationale Zusammenarbeit: Dokumentierter Nachweis der Arbeit in globalen Tech-Teams an realen neuro-medizinischen Problemen.", "Direktes akademisches Networking: Die Schule verband virtuellen Hackathon mit physischen Europa-Labbesuchen und ermöglichte direkten Kontakt zwischen Schülern und Elite-Universitätsdozenten.", "Klare Karriereverläufe: Das Programm festigte die Ambitionen und verschaffte einen massiven Vorteil bei Zulassungen in STEM und Neurowissenschaft."],
+      "ctaQuestion": "Hat Ihre Schule ehrgeizige Schüler, die die weltweit besten STEM-Universitäten anstreben?",
+      "ctaP": "NeuroTX bietet Lehrplan, Hardware und globales Netzwerk. Kontaktieren Sie David Wiehls, um Ihre Pipeline zum internationalen br41n.io-Netzwerk aufzubauen."
+    },
+    "wenling": {
+      "title": "Lokale Exzellenz mit globaler Neurowissenschaft verbinden",
+      "subtitle": "Wie Zhejiang Wenling High School Top-Schüler in internationale BCI-Forschungsnetzwerke katapultierte",
+      "challengeTitle": "Die Herausforderung: Öffentliches Schul-STEM auf die globale Bühne",
+      "challengeContent": "Zhejiang Wenling High School ist für strenge akademische Standards und außergewöhnliches Schülerpotenzial bekannt. Für ambitionierte Oberstufenschüler, die Karrieren in Neurowissenschaft, Medizin und KI anstreben, reichten traditioneller Physik- und Informatikunterricht nicht aus. Um mit Bewerbern aus Elite-Internationalakademien um Spitzen-Unis zu konkurrieren, brauchten diese Schüler verifizierbare, praktische Erfahrung in Spitzenforschung und grenzüberschreitender akademischer Zusammenarbeit.",
+      "phase1Title": "Phase 1: Funke und Sprint (April–Mai 2025)",
+      "phase1P1": "Im April 2025 führte NeuroTX einen Tier-1 Neuro-Discovery Workshop für ausgewählte Oberstufenschüler in Wenling ein. Die Einführung in die 50/50 Input/Output-Welt von BCI war sofort ein Katalysator.",
+      "phase1P2": "Angetrieben von dieser neuen Grenze meldeten sich die Schüler wenige Wochen später mutig für den Mai 2025 br41n.io Global Hackathon an.",
+      "phase1Bullet": "Globale Integration: Die Wenling-Kohorte wurde in internationale Projektteams integriert statt isoliert lokal zu konkurrieren. Sie arbeiteten virtuell mit Peers und Universitätsmentoren weltweit an BCI-Herausforderungen mit Unicorn Hybrid Black-Daten.",
+      "phase2Title": "Phase 2: Die europäische Forschungsexpedition (Sommer 2025)",
+      "phase2Italic": "Von virtueller Zusammenarbeit zu physischer Immersion.",
+      "phase2P1": "Um den Hackathon-Schwung zu nutzen, nahm die Wenling-Kohorte im Sommer 2025 an einem spezialisierten internationalen Mobilitätsprogramm teil. In Europa besuchten sie nicht nur Campus, sondern die offiziellen Host-Institute des BCI-Hackathons.",
+      "phase2Bullet": "Der akademische ROI: Schüler betraten authentische, erstklassige Neurotechnologie-Labore und trafen die europäischen Professoren, Forscher und Ingenieure, die ihre Hackathon-Projekte Monate zuvor bewertet hatten. Ein virtueller Wettbewerb wurde zu echtem, karriereprägendem akademischem Networking.",
+      "phase3Title": "Phase 3: Vertiefung & 2026-Kampagne (Aktuell)",
+      "phase3P1": "Mit kristallisierter Zukunftsvision kehrten die Schüler nach Zhejiang zurück und widmeten sich voll dem NeuroTX-Fortgeschrittenenprogramm. BCI war für sie nicht nur ein Extrakurrikulum, sondern der klare Karriereweg.",
+      "phase3P2": "Aktuelles Ziel: Die Wenling-Kohorte vertieft sich in intensive NeuroTX BCI-Lektionen zur Signalakquisition und ML-Architektur für die br41n.io Spring School und den Hackathon im April 2026.",
+      "phase3List": ["Karriereverlauf: Sie kehren nicht als Novizen, sondern als erfahrene Teilnehmer auf die globale Bühne zurück. Ziel: Über den 2026-Hackathon Beziehungen zu führenden Neurowissenschaftlern festigen und Zulassungen sowie Forschungsplätze an Top-Unis sichern."],
+      "resultTitle": "Das Ergebnis: Ein Paradigmenwechsel für öffentliches Gymnasium-STEM",
+      "resultP": "Durch die NeuroTX-Pipeline verband Zhejiang Wenling High School erfolgreich lokale akademische Strenge mit globaler wissenschaftlicher Innovation:",
+      "resultList": ["Elite-Universitätsportfolios: Unvergleichliche Bewerbungsportfolios mit internationaler Tech-Zusammenarbeit, angewandtem maschinellem Lernen und fortgeschrittener Neurobiologie.", "Globale akademische Mobilität: Eine direkte, verifizierbare Brücke zu europäischen Forschungsinstituten und globalen Universitätsdozenten.", "Zukunftssichere Karrierewege: Die Schule katapultierte ihr Top-STEM-Talent in die exklusive Pipeline globaler Neurowissenschaft und Neuro-Ingenieurwesen."],
+      "ctaQuestion": "Ist Ihr Gymnasium bereit, sein Top-STEM-Talent mit weltweit führenden Neurowissenschaftlern zu verbinden?",
+      "ctaP": "NeuroTX bietet Hardware, Lehrplan und internationales Netzwerk. Kontaktieren Sie David Wiehls, um Ihre Pipeline zum br41n.io Global Hackathon aufzubauen."
+    },
+    "entel": {
+      "title": "Die chinesisch-deutsche Tech-Brücke",
+      "subtitle": "Wie Hangzhou Entel Foreign Language School über 50 Schüler mit Deutschlands Elite-Ingenieuruniversitäten verband",
+      "challengeTitle": "Die Herausforderung: Sprachliche Exzellenz mit Hard Tech verbinden",
+      "challengeContent": "Hangzhou Entel Foreign Language School bildet durchgehend Schüler mit außergewöhnlichen interkulturellen und internationalen Ambitionen aus. Viele zielen speziell auf Deutschland wegen seiner weltberühmten, gebührenfreien Ingenieur- und Technikuniversitäten. Deutsche Zulassungen – besonders an TU9-Institutionen – sind jedoch technisch sehr streng. Entel erkannte: Deutsch- und Englischkenntnisse reichen nicht; Schüler brauchen ein fortgeschrittenes STEM-Portfolio mit verifizierter Forschungs- und Ingenieurerfahrung für europäische Zulassungsausschüsse.",
+      "phase1Title": "Phase 1: Großvolumen-Tech-Aktivierung (Frühjahr 2025)",
+      "phase1P1": "Um diese Lücke zu schließen, partnerte Entel mit NeuroTX und führte BCI bei den Schülern ein. Die Resonanz war enorm.",
+      "phase1P2": "Über 50 Schüler meldeten sich für die ersten NeuroTX-Workshops an. An der Schnittstelle von Biologie, Informatik und internationaler Zusammenarbeit wechselten sie schnell von basis Python zur Visualisierung ihrer eigenen Gehirnwellen.",
+      "phase1P3": "Mit diesem Schwung traten viele Schüler offiziell dem 2025 br41n.io Global Hackathon bei. Sie arbeiteten in internationalen Teams an komplexen Neuro-Daten-Herausforderungen und bewiesen Zukunft-Unis ihre Fähigkeit in anspruchsvollen, grenzüberschreitenden Technikumgebungen.",
+      "phase2Title": "Phase 2: Die direkte Pipeline zu Deutschlands Top-Instituten",
+      "phase2Italic": "Hier änderte das NeuroTX-Netzwerk die Laufbahnen der Schüler grundlegend.",
+      "phase2P1": "Da NeuroTX tiefe europäische Wurzeln hat und in das br41n.io-Netzwerk integriert ist, erhielten Entel-Schüler exklusiven Zugang zu einigen von Deutschlands prestigeträchtigsten Institutionen.",
+      "phase2P2": "Durch Hackathon-Teilnahme und NeuroTXs Partnernetzwerk verbanden sich die Schüler direkt mit Forschern, Mentoren und Host-Instituten von:",
+      "phase2List": ["RWTH Aachen (eine von Europas führenden Technikuniversitäten und Alma Mater von NeuroTXs Gründer)", "Technische Universität München (TUM)", "Karlsruher Institut für Technologie (KIT)"],
+      "phase3Title": "Phase 3: Die Zukunft sichern (2026-Kampagne)",
+      "phase3Status": "Aktueller Stand: März 2026",
+      "phase3P1": "Der 2025-Hackathon war erst der Anfang. Die Schüler erkannten den enormen Wert der europäischen akademischen Verbindungen und setzten ihre fortgeschrittene BCI-Ausbildung bei NeuroTX das ganze Jahr fort.",
+      "phase3P2": "Ziel: Die Schüler trainieren intensiv für die br41n.io Spring School und den Hackathon im April 2026. Sie wollen ihre BCI-Projekte – von medizinischer Datenanalyse bis Robotersteuerung – als Kernstück ihrer Bewerbungen für TUM, RWTH Aachen und KIT nutzen und ihre über ein Jahr aufgebauten Beziehungen für Zulassungen zu Deutschlands Elite-STEM-Programmen einsetzen.",
+      "resultTitle": "Das Ergebnis: Der ultimative internationale Bewerber",
+      "resultP": "Durch das NeuroTX-Programm verschaffte Hangzhou Entel Foreign Language School ihren Schülern einen entscheidenden Wettbewerbsvorteil:",
+      "resultList": ["Das Linguist-Ingenieur-Profil: Schüler verbanden erfolgreich Sprachgewandtheit mit angewandtem maschinellem Lernen und Neurowissenschaft zu einem einzigartig starken Bewerberprofil.", "Direktes europäisches Networking: Die Schule umging traditionelle Studienberatungen und verband Schüler direkt mit Forschern an Deutschlands Top-Technikinstituten.", "Großvolumen-Engagement: Die Skalierung auf über 50 Schüler bewies, dass fortgeschrittene Neurotechnologie erfolgreich in großen Kohorten eingesetzt werden kann."],
+      "ctaQuestion": "Möchte Ihre internationale Schule eine direkte Brücke zu Europas Top-Technikuniversitäten bauen?",
+      "ctaP": "NeuroTX bietet Lehrplan, Hardware und das exklusive europäische Netzwerk. Kontaktieren Sie David Wiehls, um Ihre Pipeline zum br41n.io Global Hackathon aufzubauen."
+    }
+  }
+}

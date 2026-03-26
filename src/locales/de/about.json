@@ -1,0 +1,40 @@
+{
+  "title": "Die „Cyborg\"-Stiftung",
+  "subtitle": "Wir betrachten Neurotechnologie nicht nur als externes Werkzeug, sondern als die letztendliche, nahtlose Erweiterung des menschlichen Geistes.",
+  "mission": {
+    "title": "Unsere Mission",
+    "items": [
+      {
+        "title": "Neurale Integration entmystifizieren",
+        "desc": "BCI von „Science-Fiction\" zu einer grundlegenden Lebenskompetenz überführen."
+      },
+      {
+        "title": "Kognitive Evolution",
+        "desc": "Schülern ermöglichen, Fähigkeiten durch unkonventionelle, direkte neuronale Wege (Input/Neurofeedback) zu erwerben."
+      },
+      {
+        "title": "Positive Zukunftsakzeptanz",
+        "desc": "Eine Generation kultivieren, die die „Cyborg-Zukunft\" mit Handlungsfähigkeit, Ethik und Optimismus betrachtet."
+      }
+    ]
+  },
+  "ethical": {
+    "title": "Ethische Haltung",
+    "intro": "Neurale Daten sind die intimste Form von persönlichem Eigentum. Unser Datenschutz-Rahmen ist kompromisslos.",
+    "institutional": {
+      "title": "Institutionelle Verantwortung",
+      "desc": "Wir operieren strikt B2B. Die Bildungseinrichtung bleibt der rechtliche und ethische Verwalter der neuronalen Daten der Schüler."
+    },
+    "collaborative": {
+      "title": "Kollaborativer Schutz",
+      "desc": "Wir arbeiten mit Schulen zusammen, um eine geschützte, geschlossene Umgebung zu schaffen. Daten gelangen niemals in den kommerziellen Markt."
+    }
+  },
+  "founder": {
+    "badge": "GRÜNDER & LEITUNG",
+    "name": "David Wiehls",
+    "bio": "Deutscher Ingenieur, offizieller China-Host-Partner und globales Jurymitglied für den br41n.io Hackathon. RWTH Aachen-Absolvent, der sich der Überbrückung der Lücke zwischen reiner Neurowissenschaft und angewandter Robotik in der K-12-Bildung widmet.",
+    "rwth": "RWTH Aachen Absolvent",
+    "br41n": "br41n.io Jurymitglied"
+  }
+}
